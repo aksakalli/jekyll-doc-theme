@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="well">
+        <h4>DOCS</h4>
+        <ul class="post-list">
+          {% for doc in site.docs %}
+          <li>
+            <a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <h1>{{ page.title }}</h1>
+      <div>{{ content }}</div>
+    </div>
+
+
+  </div>
+</div>
