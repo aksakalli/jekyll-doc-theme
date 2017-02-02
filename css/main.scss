@@ -8,10 +8,8 @@
   "variables",
   "bootstrap",
   "bootswatch",
-  "syntax-highlighting",
-  "site"
+  "syntax-highlighting"
 ;
-
 
 html {
   position: relative;
@@ -36,4 +34,9 @@ body {
   height: 46px;
   padding-top: 10px;
   background-color: #f5f5f5;
+}
+.post-list-container {
+    li a.active {
+        font-weight: bold;
+    }
 }
