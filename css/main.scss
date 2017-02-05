@@ -21,8 +21,10 @@ body {
 }
 .header-container {
   background: url('../img/bg.jpg') no-repeat 50% 0;
+  // background-attachment: fixed;
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 36%;
+
 }
 .navbar-container {
   font-size: 16px;

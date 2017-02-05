@@ -35,10 +35,26 @@ defaults:
     path: blog
     type: pages
   values:
+    layout: post
     sectionid: blog
+
 - scope:
-    path: docs
-    type: pages
+    path: _docs
+    type: docs
   values:
     layout: docs
     sectionid: docs
+
+# - scope:
+#     path: _docs
+#     type: pages
+#   values:
+#     layout: docs
+#     sectionid: docs
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true

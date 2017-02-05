@@ -10,7 +10,7 @@ layout: default
 
           <div class="panel panel-default">
               <div class="panel-body">
-
+                {% include docs_contents.html %}
               </div>
           </div>
         </div>
@@ -18,6 +18,8 @@ layout: default
         <div class="col-lg-8">
             <h1>{{ page.title }}</h1>
             <div>{{ content }}</div>
+            <hr>
+            {% include section_nav.html %}
         </div>
 
 
