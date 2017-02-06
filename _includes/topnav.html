@@ -17,6 +17,13 @@
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
                 <li><a href="{{ site.github_address }}"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
             </ul>
+            <form class="navbar-form navbar-right">
+              <input id="search-box" type="text" class="form-control" placeholder="Search...">
+              
+              <!-- <div id="search-box-container">
+
+              </div> -->
+            </form>
         </div>
     </div>
 </nav>
