@@ -7,16 +7,19 @@ description: > # Lorem ipsum dolor sit amet, consectetur adipiscing elit,
   ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
   in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "linksmart-eu.github.io" # the base hostname & protocol for your site
-github_address: https://github.com/linksmart-eu/linksmart-eu.github.io
+url: "https://www.linksmart.eu/" # the base hostname & protocol for your site
+git_address: https://github.com/linksmart-eu/linksmart-eu.github.io
+git_edit_address: https://github.com/linksmart-eu/linksmart-eu.github.io/master
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 gems:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -26,14 +29,8 @@ exclude:
 timezone: Europe/Berlin
 defaults:
 - scope:
-    path: ''
+    path: _posts
     type: posts
-  values:
-    layout: post
-    sectionid: blog
-- scope:
-    path: blog
-    type: pages
   values:
     layout: post
     sectionid: blog
@@ -44,13 +41,9 @@ defaults:
   values:
     layout: docs
     sectionid: docs
+    # seo:
+    #   type: "WebPage"
 
-# - scope:
-#     path: _docs
-#     type: pages
-#   values:
-#     layout: docs
-#     sectionid: docs
 collections:
   docs:
     permalink: /:collection/:path/

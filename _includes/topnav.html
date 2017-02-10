@@ -15,15 +15,18 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ " /docs/home/ " | prepend: site.baseurl }}">Docs</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
-                <li><a href="{{ site.github_address }}"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
             </ul>
-            <form class="navbar-form navbar-right">
-              <input id="search-box" type="text" class="form-control" placeholder="Search...">
-              
-              <!-- <div id="search-box-container">
-
-              </div> -->
-            </form>
+            <div class="navbar-right">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group has-feedback">
+                        <input id="search-box" type="text" class="form-control" placeholder="Search...">
+                        <i class="fa fa-search form-control-feedback"></i>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ site.git_address }}"><i class="fa fa-git" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
