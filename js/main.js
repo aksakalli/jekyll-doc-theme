@@ -9,9 +9,7 @@ $(function() {
         // datumTokenizer: Bloodhound.tokenizers.whitespace,
         queryTokenizer: Bloodhound.tokenizers.whitespace,
 
-        // local: ['dog', 'pig', 'moose'],
-
-        prefetch: '/search.json'
+        prefetch: baseurl + '/search.json'
     });
 
     $('#search-box').typeahead({

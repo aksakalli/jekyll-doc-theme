@@ -7,7 +7,7 @@
     {% assign p = site.docs | where:"url", item_url | first %}
     {
       "title": "{{ p.title }}",
-      "url": "{{ p.url }}"
+      "url": "{{ p.url | prepend: site.baseurl }}"
 
     },
   {% endfor %}
