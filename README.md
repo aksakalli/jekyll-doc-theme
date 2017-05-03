@@ -1,6 +1,6 @@
 # Jekyll Doc Theme
 
-Go [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information.
+Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
 
 ## License
 
