@@ -4,53 +4,51 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such
-as getting your site up and running, creating and managing your content,
-customizing the way your site works and looks, deploying to various
-environments, and give you some advice on participating in the future
-development of Jekyll itself.
+## Getting started
 
-## So what is Jekyll, exactly?
+[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
+Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
+The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published in the webpage instantly.
 
-Jekyll is a simple, blog-aware, static site generator. It takes a template
-directory containing raw text files in various formats, runs it through
-a converter (like [Markdown](https://daringfireball.net/projects/markdown/))
-and our [Liquid](https://github.com/Shopify/liquid/wiki) renderer, and
-spits out a complete, ready-to-publish static website suitable
-for serving with your favorite web server. Jekyll also happens to be the engine
-behind [GitHub Pages](https://pages.github.com), which means you can use Jekyll
-to host your project’s page, blog, or website from GitHub’s servers **for
-free**.
+1. Just download the source from [github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme/master) into your repo under `docs` folder.
+2. Edit site settings in  `_config.yml` file according to your project.
+3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
 
-## Helpful Hints
+## Writing content
 
-Throughout this guide there are a number of small-but-handy pieces of
-information that can make using Jekyll easier, more interesting, and less
-hazardous. Here’s what to look out for.
+### Docs
 
-<div class="note">
-  <h5>ProTips™ help you get more from Jekyll</h5>
-  <p>These are tips and tricks that will help you be a Jekyll wizard!</p>
-</div>
+Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
 
-<div class="note info">
-  <h5>Notes are handy pieces of information</h5>
-  <p>These are for the extra tidbits sometimes necessary to understand
-     Jekyll.</p>
-</div>
+**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
 
-<div class="note warning">
-  <h5>Warnings help you not blow things up</h5>
-  <p>Be aware of these messages if you wish to avoid certain death.</p>
-</div>
+```
+---
+title: My Page
+permalink: /docs/my-page/
+---
 
-<div class="note unreleased">
-  <h5>You'll see this by a feature that hasn't been released</h5>
-  <p>Some pieces of this website are for future versions of Jekyll that
-    are not yet released.</p>
-</div>
+Hello World!
+```
 
-If you come across anything along the way that we haven’t covered, or if you
-know of a tip you think others would find handy, please [file an
-issue]({{ site.repository }}/issues/new) and we’ll see about
-including it in this guide.
+**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+
+```
+- title: My Group Title
+  docs:
+  - my-page
+```
+
+### Blog posts
+
+Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+
+### Pages
+
+The home page is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap componenets](http://getbootstrap.com/components/))
+
+In order to add a new page, create a new html or markdown file under root directory and link it in `_includes/topnav.html`.
+
+```
+
+```
