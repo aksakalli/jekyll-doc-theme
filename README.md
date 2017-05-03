@@ -1,3 +1,7 @@
-# LinkSmart Documentation & Website
+# Jekyll Doc Theme
 
-Add Markdown files to `docs` & `posts` and [Jekyll](http://jekyllrb.com/) will generate the static website.
+Go [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information.
+
+## License
+
+Released under [the MIT license](LICENSE).
