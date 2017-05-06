@@ -1,5 +1,5 @@
 # Site settings
-title: Jekyll Doc Theme
+title: Java EE is cool !
 email: your-email@domain.com
 description: > # Jekyll Template for Project Websites
   providing documentation and blog post pages.
@@ -24,14 +24,14 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
-timezone: Europe/Berlin
+timezone: Europe/Prague
 defaults:
 - scope:
     path: _posts
     type: posts
   values:
     layout: post
-    sectionid: blog
+    sectionid: news
 
 - scope:
     path: _docs
@@ -42,10 +42,11 @@ defaults:
     seo:
       type: "WebPage"
 
+
 collections:
   docs:
     permalink: /:collection/:path/
     output: true
   posts:
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /news/:year/:month/:day/:title/
     output: true
