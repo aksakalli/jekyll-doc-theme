@@ -21,6 +21,6 @@ bundle install
 jekyll serve
 ```
 
-## License
+## Thank you
 
-Released under [the MIT license](LICENSE).
+Based on [Jekyll doc](https://aksakalli.github.io/jekyll-doc-theme/) theme.
