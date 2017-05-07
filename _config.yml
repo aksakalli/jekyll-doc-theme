@@ -1,11 +1,11 @@
 # Site settings
-title: Java EE is cool !
-email: your-email@domain.com
+title: Java EE Central
+email: pavelpscheidl@gmail.com
 description: > # Jekyll Template for Project Websites
   Java EE tutorials, news, tips and tricks.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
+url: https://javaee-cool.github.io/ # the base hostname & protocol for your site
 git_address: https://github.com/aksakalli/jekyll-doc-theme
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
