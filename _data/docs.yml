@@ -1,10 +1,9 @@
-- title: Getting Started
+- title: Preparations
   docs:
   - home
-  - customization
 
-- title: Examples
+- title: Building REST APIs
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - rest/creating-rest-project
+  - rest/writing-rest-service
+  - rest/running-rest-service

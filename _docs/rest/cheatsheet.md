@@ -1,6 +1,6 @@
 ---
 title: Preparations
-permalink: /docs/home/
+permalink: /docs/cheatsheet/
 ---
 
 The preparation phase is very easy. There are only two things required.

@@ -8,13 +8,13 @@
         <span class="icon-bar"></span>
       </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">
-                <span><img src="{{site.baseurl}}/img/logonav.png" style="margin-top: -14px; width:40px;"></span> {{ site.title }}
+                <span><img src="{{site.baseurl}}/img/ee_logo.png" style="margin-top: -14px; width:100px;"></span> education
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Docs</a></li>
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Getting started</a></li>
+                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">News</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
