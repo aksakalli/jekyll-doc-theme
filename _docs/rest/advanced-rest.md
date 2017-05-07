@@ -15,7 +15,7 @@ For all these cases, there is `Response`. Response is a class from `javax.ws.rs.
 - Set HTTP headers
 - Control the overall look of HTTP Response, if required.
 
-To use it, simply make the your JAX-RS methods return `Response`.
+To use it, simply make the your JAX-RS methods return the above mentioned `Response`. A working example can always be seen and downloaded from [GitHub](https://github.com/javaee-cool/rest-basic-tutorial).
 
 ## Basic Response example
 
@@ -232,3 +232,5 @@ Start the application with `wildfly-swarm:run` Maven command once again. Open th
 
 ## Done
 Returning a `Response` from JAX-RS methods brings many advantages. `Response` offers control over **what** is returned and **how** it is returned. You can experiment with methods present in the Response class.
+
+The complete source code can be found on [GitHub](https://github.com/javaee-cool/rest-basic-tutorial).
