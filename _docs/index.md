@@ -1,50 +1,45 @@
 ---
-title: Welcome
+title: Preparations
 permalink: /docs/home/
-redirect_from: /docs/index.html
 ---
 
-## Getting started
+The preparation phase is very easy. There are only two things required.
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published in the webpage instantly.
+- Java Development Kit (JDK) 
 
-1. Just download the source from [github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme/master) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project.
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+- Integrated Development Environment (IDE) - NetBeans
 
-## Writing content
+Java Development Kit **makes it possible** to build Java applications. Period. It is required to build any Java application in general, not only Java EE applications. And because Java EE applications are written in Java, the same tools are used for building it.
 
-### Docs
+The IDE **makes it easy** for the developer to create Java EE projects by providing syntax highligting, code completion any countless other features. For Java EE, the first choice is [NetBeans](https://netbeans.org/). A project once started in the heart of Europe as a student project is now top-class IDE, offering great Java EE support. And it is available for everyone to use for free.
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+## Download
+There are two alternatives. If you are a comlete beginner, just download the whole package. If you are a Java developer or there is simply an up-to-date Java Development Kit already present on your system, there is always the option to download both parts separately. If you do not know what to do, just download the whole package.
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+### Downloading the whole package
 
-Hello World!
-```
+If you do not own JDK, nor IDE, you can always **[download the latest version of both in one bundle](http://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-142931.html)**.
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+### Alternative: one-by-one download
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+If you already have the Java Development Kit, only the IDE can be downloaded. Or, you want to have precise control over the JDK installed, both parts can be downloaded separately.
 
-### Blog posts
+- Download [latest Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and install it.
+- After installation of the JDK, [download latest](https://netbeans.org/downloads/) Java EE version of NetBeans and install it as well.
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+## NetBeans installation
 
-### Pages
+### Windows
+Piece of cake. Just double-click the installer ! C'mon, you can do it :) Leave everything to default, only pick the path where you want your NetBeans installed.
 
-The home page is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap componenets](http://getbootstrap.com/components/))
+### Linux
+In terminal, go to the folder where netbeans-{version}.sh is downloaded and type `chmod +x netbeans-{version}.sh`. This marks the installer as executable. Then, execute it by simply typing `./netbeans-{version}.sh`.
 
-In order to add a new page, create a new html or markdown file under root directory and link it in `_includes/topnav.html`.
+Leave everything to default, only pick the path where you want your NetBeans installed.
+
+
+## Finish
+
+And **you are done**. Run NetBeans IDE and feel free to go to the next chapter, where **coding starts**.
+

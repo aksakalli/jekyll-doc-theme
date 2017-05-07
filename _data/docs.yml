@@ -1,34 +1,9 @@
-- title: Getting Started
+- title: Preparations
   docs:
   - home
-  - customization
 
-- title:  REST APIs
+- title: Building REST APIs
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
-
-- title: Database access
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
-
-- title: Superior Dependency Injection
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
-
-- title: Extensions
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
-
-- title: Microcontainers
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - rest/creating-rest-project
+  - rest/writing-rest-service
+  - rest/running-rest-service
