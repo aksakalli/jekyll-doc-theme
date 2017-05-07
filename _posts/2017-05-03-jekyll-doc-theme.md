@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll Doc Theme is published!"
-author: aksakalli
+title:  "Java EE Cool tutorials online !"
+author: Pavel Pscheidl
 ---
-A new custom Jekyll theme for documentation and blogging is out. It is ideal for Open Source Software projects to publish under [GitHub Pages](https://pages.github.com).
+Java EE is great platform to work with. Let us show it to the world !
 
-Your contribution is welcome!
+Your contribution is welcome! You can contribute on [GitHub](https://github.com/javaee-cool/javaee-cool.github.io).
