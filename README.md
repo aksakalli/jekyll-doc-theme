@@ -7,8 +7,8 @@ Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed 
 You need Ruby and gem before starting, then:
 
 ```bash
-# install jekyll and bundler
-gem install jekyll bundler
+# install bundler
+gem install bundler
 
 # clone the project
 git clone https://github.com/aksakalli/jekyll-doc-theme.git
