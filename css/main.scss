@@ -4,10 +4,20 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+
+
+
 @import
-  "variables",
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/variables",
+  {% endif %}
+
   "bootstrap",
-  "bootswatch",
+
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
+  {% endif %}
+
   "syntax-highlighting",
   "typeahead"
 ;
@@ -17,12 +27,22 @@ html {
   min-height: 100%;
 }
 body {
-  padding-top: 87px;
+  padding-top: $navbar-height + $navbar-margin-bottom;
   margin-bottom: 46px;
 }
+
+.navbar-brand{
+  img{
+    margin: -$navbar-padding-vertical 0;
+    height: $navbar-height;
+    padding: 10px 0;
+  }
+}
+
+
 .header-container {
   background-color: black;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/bg.jpg') no-repeat 50% 0;
+  background: url('../img/bg.jpg') no-repeat 50% 0;
   color: #fff;
 
   h1 {
@@ -46,6 +66,7 @@ body {
   height: 46px;
   padding-top: 10px;
   background-color: $gray-lighter;
+  color: $gray-dark;
 }
 
 .post-list-container {

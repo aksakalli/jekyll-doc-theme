@@ -265,6 +265,17 @@ select.form-control {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAJ1BMVEUhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISF8S9ewAAAADHRSTlMAAgMJC0uWpKa6wMxMdjkoAAAANUlEQVR4AeXJyQEAERAAsNl7Hf3X6xt0QL6JpZWq30pdvdadme+0PMdzvHm8YThHcT1H7K0BtOMDniZhWOgAAAAASUVORK5CYII=);
   }
 
+  &[disabled],
+  &[readonly] {
+    @include box-shadow(none);
+    border-bottom: 1px dotted #ddd;
+
+    &,
+    option {
+      color: $input-color-placeholder;
+    }
+  }
+
   &[multiple] {
     background: none;
   }
@@ -519,33 +530,6 @@ input[type="checkbox"],
 
 .alert {
   border: none;
-  color: #fff;
-
-  &-success {
-    background-color: $brand-success;
-  }
-
-  &-info {
-    background-color: $brand-info;
-  }
-
-  &-warning {
-    background-color: $brand-warning;
-  }
-
-  &-danger {
-    background-color: $brand-danger;
-  }
-
-  a:not(.close):not(.btn),
-  .alert-link {
-    color: #fff;
-    font-weight: bold;
-  }
-
-  .close {
-    color: #fff;
-  }
 }
 
 .badge {
@@ -582,18 +566,18 @@ input[type="checkbox"],
     }
 
     &-success:last-child.progress-bar:before {
-      background-color: lighten($brand-success, 35%);
+      background-color: lighten($progress-bar-success-bg, 35%);
     }
 
     &-info:last-child.progress-bar:before {
-      background-color: lighten($brand-info, 45%);
+      background-color: lighten($progress-bar-info-bg, 45%);
     }
     &-warning:last-child.progress-bar:before {
-      background-color: lighten($brand-warning, 35%);
+      background-color: lighten($progress-bar-warning-bg, 35%);
     }
 
     &-danger:last-child.progress-bar:before {
-      background-color: lighten($brand-danger, 25%);
+      background-color: lighten($progress-bar-danger-bg, 25%);
     }
   }
 }
