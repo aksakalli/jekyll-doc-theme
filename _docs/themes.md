@@ -3,7 +3,7 @@ title: Themes
 permalink: /docs/themes/
 ---
 
-By default, this website uses `paper` theme, but you can change it to another [bootwatch theme](https://bootswatch.com/) by setting
+By default, this website uses `paper` theme, but you can change it to another [bootwatch theme](https://bootswatch.com/3/) by setting
 `bootwatch` variable in `_config.yml` file.
 (Don't forget to restart `Jekyll` if you are running locally because the configuration is not re-read upon change.)
 
@@ -12,7 +12,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#cerulean/"><img src="https://bootswatch.com/cerulean/thumbnail.png" class="img-responsive" alt="Cerulean"></a>
+        <a href="#cerulean/"><img src="https://bootswatch.com/3/cerulean/thumbnail.png" class="img-responsive" alt="Cerulean"></a>
       </div>
       <div class="caption">
         <h3>Cerulean</h3>
@@ -24,7 +24,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#cosmo/"><img class="img-responsive" src="https://bootswatch.com/cosmo/thumbnail.png" alt="Cosmo"></a>
+        <a href="#cosmo/"><img class="img-responsive" src="https://bootswatch.com/3/cosmo/thumbnail.png" alt="Cosmo"></a>
       </div>
       <div class="caption">
         <h3>Cosmo</h3>
@@ -36,7 +36,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#cyborg/"><img class="img-responsive" src="https://bootswatch.com/cyborg/thumbnail.png" alt="Cyborg"></a>
+        <a href="#cyborg/"><img class="img-responsive" src="https://bootswatch.com/3/cyborg/thumbnail.png" alt="Cyborg"></a>
       </div>
       <div class="caption">
         <h3>Cyborg</h3>
@@ -50,7 +50,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#darkly/"><img class="img-responsive" src="https://bootswatch.com/darkly/thumbnail.png" alt="Darkly"></a>
+        <a href="#darkly/"><img class="img-responsive" src="https://bootswatch.com/3/darkly/thumbnail.png" alt="Darkly"></a>
       </div>
       <div class="caption">
         <h3>Darkly</h3>
@@ -64,7 +64,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#flatly/"><img class="img-responsive" src="https://bootswatch.com/flatly/thumbnail.png" alt="Flatly"></a>
+        <a href="#flatly/"><img class="img-responsive" src="https://bootswatch.com/3/flatly/thumbnail.png" alt="Flatly"></a>
       </div>
       <div class="caption">
         <h3>Flatly</h3>
@@ -78,7 +78,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#journal/"><img class="img-responsive" src="https://bootswatch.com/journal/thumbnail.png" alt="Journal"></a>
+        <a href="#journal/"><img class="img-responsive" src="https://bootswatch.com/3/journal/thumbnail.png" alt="Journal"></a>
       </div>
       <div class="caption">
         <h3>Journal</h3>
@@ -92,7 +92,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#lumen/"><img src="https://bootswatch.com/lumen/thumbnail.png" class="img-responsive" alt="Lumen"></a>
+        <a href="#lumen/"><img src="https://bootswatch.com/3/lumen/thumbnail.png" class="img-responsive" alt="Lumen"></a>
       </div>
       <div class="caption">
         <h3>Lumen</h3>
@@ -106,7 +106,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#paper/"><img class="img-responsive" src="https://bootswatch.com/paper/thumbnail.png" alt="Paper"></a>
+        <a href="#paper/"><img class="img-responsive" src="https://bootswatch.com/3/paper/thumbnail.png" alt="Paper"></a>
       </div>
       <div class="caption">
         <h3>Paper</h3>
@@ -120,7 +120,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#readable/"><img class="img-responsive" src="https://bootswatch.com/readable/thumbnail.png" alt="Readable"></a>
+        <a href="#readable/"><img class="img-responsive" src="https://bootswatch.com/3/readable/thumbnail.png" alt="Readable"></a>
       </div>
       <div class="caption">
         <h3>Readable</h3>
@@ -134,7 +134,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#sandstone/"><img src="https://bootswatch.com/sandstone/thumbnail.png" class="img-responsive" alt="Sandstone"></a>
+        <a href="#sandstone/"><img src="https://bootswatch.com/3/sandstone/thumbnail.png" class="img-responsive" alt="Sandstone"></a>
       </div>
       <div class="caption">
         <h3>Sandstone</h3>
@@ -148,7 +148,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#simplex/"><img class="img-responsive" src="https://bootswatch.com/simplex/thumbnail.png" alt="Simplex"></a>
+        <a href="#simplex/"><img class="img-responsive" src="https://bootswatch.com/3/simplex/thumbnail.png" alt="Simplex"></a>
       </div>
       <div class="caption">
         <h3>Simplex</h3>
@@ -162,7 +162,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#slate/"><img class="img-responsive" src="https://bootswatch.com/slate/thumbnail.png" alt="Slate"></a>
+        <a href="#slate/"><img class="img-responsive" src="https://bootswatch.com/3/slate/thumbnail.png" alt="Slate"></a>
       </div>
       <div class="caption">
         <h3>Slate</h3>
@@ -191,7 +191,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#spacelab/"><img class="img-responsive" src="https://bootswatch.com/spacelab/thumbnail.png" alt="Spacelab"></a>
+        <a href="#spacelab/"><img class="img-responsive" src="https://bootswatch.com/3/spacelab/thumbnail.png" alt="Spacelab"></a>
       </div>
       <div class="caption">
         <h3>Spacelab</h3>
@@ -205,7 +205,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#superhero/"><img class="img-responsive" src="https://bootswatch.com/superhero/thumbnail.png" alt="Superhero"></a>
+        <a href="#superhero/"><img class="img-responsive" src="https://bootswatch.com/3/superhero/thumbnail.png" alt="Superhero"></a>
       </div>
       <div class="caption">
         <h3>Superhero</h3>
@@ -219,7 +219,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#united/"><img class="img-responsive" src="https://bootswatch.com/united/thumbnail.png" alt="United"></a>
+        <a href="#united/"><img class="img-responsive" src="https://bootswatch.com/3/united/thumbnail.png" alt="United"></a>
       </div>
       <div class="caption">
         <h3>United</h3>
@@ -233,7 +233,7 @@ By default, this website uses `paper` theme, but you can change it to another [b
   <div class="col-lg-4 col-sm-6">
     <div class="thumbnail">
       <div class="image">
-        <a href="#yeti/"><img class="img-responsive" src="https://bootswatch.com/yeti/thumbnail.png" alt="Yeti"></a>
+        <a href="#yeti/"><img class="img-responsive" src="https://bootswatch.com/3/yeti/thumbnail.png" alt="Yeti"></a>
       </div>
       <div class="caption">
         <h3>Yeti</h3>
