@@ -1,14 +1,11 @@
 # Site settings
-title: Jekyll Doc Theme
+title: VR Makerspace
 email: your-email@domain.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  The home of the VR Makerspace Project
 
 baseurl: "/vrmakerspace" # the subpath of your site, e.g. /blog/
 url: https://knowinnovation.github.io/vrmakerspace # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
@@ -54,3 +51,7 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
+
+    # Server Config options
+livereload: true     # You no longer need to include --livereload
+reload_port: 5678    # If you don't want to use the default port
