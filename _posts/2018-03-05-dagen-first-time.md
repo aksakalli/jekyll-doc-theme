@@ -29,7 +29,7 @@ I held my hand still near a butterfly it would land on my finger.  I stuck out m
 hand and extended my finger (virtually and in reality).  The butterfly floated near and 
 landed on my finger. I was interacting with this new virtual environment!
 
-Insert Picture here [
+![My First Time]({{ "/assets/Dagen1stTime1.jpg" | absolute_url }})`
 
 The next couple disks the robot provided me showed me how I could interact in VR
 using the Oculus Touch Controllers .   The Oculus Touch controllers have multiple 
