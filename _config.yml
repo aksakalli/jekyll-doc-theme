@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: >
   The home of the VR Makerspace Project
 
-baseurl: "/vrmakerspace" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://knowinnovation.github.io/vrmakerspace # the base hostname & protocol for your site
 
 # theme options from https://bootswatch.com/
