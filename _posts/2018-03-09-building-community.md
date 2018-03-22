@@ -6,7 +6,7 @@ date: 2018-03-09
 ---
 ### Building community in a virtual space
 
-![Jenny Keshwani]({{ "../assets/jenny-sm.png" | absolute_url }})
+![Jenny Keshwani]({{ "../assets/jenny-sm.png" | absolute_url }}){: .mugshot }
 
 
 Hello! I’m Jenny Keshwani, faculty member in biological systems engineering. My role as Nebraska Extension science literacy specialist allows me ample opportunities to play with creative and unique educational technologies. So it was no surprise when my friend and colleague, Brad, asked me to join him in developing a makerspace community using virtual reality and telepresence robots.
