@@ -5,7 +5,7 @@ author: Neal Grandgenett
 ---
 ### "Students Think About VR as We Pilot"
 
-![Neal Grandgenett]({{ "../assets/Neal.png" | absolute_url }})`
+![Neal Grandgenett]({{ "../assets/Neal.png" | absolute_url }}){: .mugshot }`
 Hi everyone!  I am Dr. Neal Grandgenett, the external evaluator for the project, and the STEM Community Chair at the University of Nebraska at Omaha.  As the evaluator for the project, it is my honor and privilege to watch as the project evolves and to engage in all of the great thinking and efforts, not only by the CoPI team, but also by the teachers and students starting to use the project.  We are already getting some great thinking from possible stakeholders, and we recently had a teacher visit over two nights with 2 students each night.   They experienced several activities on the Alienware computer with the Oculus Rift were setup in the impressive location of UNL's Nebraska Innovation Studio.  
 
 It was really neat to see the students dig into the VR, and all of us marveled as adults just how easily the four high school students navigated the VR experience, laughing and giggling the whole time.  It was quite impressive to see.  
