@@ -3,7 +3,7 @@ title: Telepresence Hardware
 keywords: hardware, Beam
 last_updated: April 30, 2018
 summary: "Description of Telepresence Hardware used in NiMC project"
-permalink: /docs/telepresence/
+permalink: ../docs/telepresence/
 ---
 
 The Telepresence Robot used for the Nebraska innovation Maker Co-laboratory (NiMC) Project
