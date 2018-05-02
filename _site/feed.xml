@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-01T23:45:31+02:00</updated><id>http://localhost:4000/</id><title type="html">VR Makerspace</title><subtitle>The home of the VR Makerspace Project
+</subtitle><entry><title type="html">Building community in a virtual space</title><link href="http://localhost:4000/blog/2018/03/09/building-community/" rel="alternate" type="text/html" title=" Building community in a virtual space " /><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><id>http://localhost:4000/blog/2018/03/09/building-community</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/09/building-community/">&lt;h3 id=&quot;building-community-in-a-virtual-space&quot;&gt;Building community in a virtual space&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/jenny-sm.png&quot; alt=&quot;Jenny Keshwani&quot; class=&quot;mugshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello! I’m Jenny Keshwani, faculty member in biological systems engineering. My role as Nebraska Extension science literacy specialist allows me ample opportunities to play with creative and unique educational technologies. So it was no surprise when my friend and colleague, Brad, asked me to join him in developing a makerspace community using virtual reality and telepresence robots.&lt;/p&gt;
+
+&lt;p&gt;I was – and maybe still am – a bit skeptical about using technology to build community. I’ve read about the negative effects of technology on relationships – see Alone Together by Sherry Turkle and Generation Me by Jean Twenge – and was nervous about replacing real face-to-face interactions with self-centered/when-I-want-it/on-my-own-time technology-assisted interactions.
+However, my first few experiences with virtual collaboration are starting to question my preconceived notions and change my mind.&lt;/p&gt;
+
+&lt;p&gt;Our core team generally meets on Zoom, a standard web conference application. Using video chat allows us to see each other’s facial expressions and some body language, a definite improvement over a conference call without video. However, it’s definitely not the same as being physically together in a meeting space. It’s easy to mentally check out on a web conference. Staring at small boxes of your colleague’s faces is not natural or engaging…&lt;/p&gt;
+
+&lt;p&gt;We decided to experiment with Facebook Spaces for our regular meeting to put our talk into practice. If we expect the youth to collaborate and build community virtually, so should we. The Nebraska contingent of the core team – Brad, Dagen, Neal and myself – set-up our Oculus Rifts together at Nebraska Innovation Studio. We were a bit nervous about the technology and wanted to be able to help each other in case we ran into issues with the application. Andy joined us virtually from New York. 
+From the moment we all appeared in Facebook Spaces I could tell this was not going to be the typical web conference interaction. Cartoonish avatars of my colleagues were positioned around a table. I could wave to them from across the table and talk to them as if we were in the same room. We proceeded to explore the space together – finding tools like a selfie-stick especially useful to document our time and creative additions, like a bunny ear headband, to our avatars. At one point, Brad pushed a sword through my head. Don’t worry! It didn’t hurt! We also learned how to share pictures with each other and find images to redecorate our room. For a while we even held our meeting on the moon!&lt;/p&gt;
+
+&lt;p&gt;Initially I felt that we didn’t accomplish anything related to the project during our one-hour meeting that day. We didn’t follow an agenda or make any plans for moving the project forward. However, there was value in experiencing how to learn to use the virtual space together. We even explored how to take notes to capture our discussion should we decide to be productive during out next meeting in Facebook Places.&lt;/p&gt;
+
+&lt;p&gt;When I took off my Oculus headset I was honestly surprised to find only Dagen, Brad and Neal in the real-world room with me. Andy’s presence in the virtual space was so convincing I actually believed he was in Nebraska attending the meeting in the same room with us. I have &lt;em&gt;never&lt;/em&gt; felt that way after a Zoom meeting. Maybe there is potential for building meaningful community through virtual technologies after all!&lt;/p&gt;
+
+&lt;p&gt;Moving forward I’m excited to continue to explore how technology like Facebook Spaces can be used to build community from a distance. How can we move from a playful, exploration-focused experience to a productive meeting? How will this technology deepen relationships between team members to allow for more creativity?&lt;/p&gt;</content><author><name>Jenny Keshwani</name></author><summary type="html">Building community in a virtual space</summary></entry><entry><title type="html">Telepresence: First Impressions</title><link href="http://localhost:4000/blog/2018/03/06/telepresence/" rel="alternate" type="text/html" title="Telepresence: First Impressions" /><published>2018-03-06T00:00:00+01:00</published><updated>2018-03-06T00:00:00+01:00</updated><id>http://localhost:4000/blog/2018/03/06/telepresence</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/06/telepresence/">&lt;h2 id=&quot;beam-me-up&quot;&gt;BEAM® me up!!&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-is-telepresence-robotics&quot;&gt;What is Telepresence Robotics?&lt;/h3&gt;
+&lt;p&gt;A Mobile Telepresence Robot (MTR) is a computer or tablet or smart-phone controlled robot which includes video, audio, and controls.  These features enable an MTR ’pilot’ to interact with a distant environment.&lt;/p&gt;
+
+&lt;p&gt;MTR’s  have been used and researched in many domains including hospitals, in-home care settings, emergency response scenarios, academic conferences, and corporate environments (Stoll et al, 2018).&lt;/p&gt;
+
+&lt;h3 id=&quot;why-telepresence&quot;&gt;Why Telepresence?&lt;/h3&gt;
+&lt;p&gt;Geographic distance in Nebraska is one of the largest barriers to student participation in Makerspaces, and this issue is compounded further by a general lack of mentors in these areas who have the skills necessary to lead and guide communities of learners.   The project team’s goal is to deploy and utilize telepresence robots in Sidney Public Library and University of Nebraska-Lincoln Innovation Studio as catalysts to creative focused teaching and learning for rural youth as they develop their Maker projects.&lt;/p&gt;
+
+&lt;p&gt;The research team is investigating makerspaces using two main strategies; virtual collaborative spaces and robotic telepresence, to provide rural youth and their community access to the Maker movement.   If successful the grant will produce a replicable strategy of reaching rural underserved youth audiences and their communities so that they may participate in the Maker experience.&lt;/p&gt;
+
+&lt;p&gt;The project chose Suitable Tech’s BEAM® for the use in the project.&lt;br /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/BEAM_poster.jpg&quot; alt=&quot;BEAMPoster&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Two Beam® robots will be used for the project. As seen in the poster above, one of the Beam®s is in Sidney, NE.  The other is at the University of Nebraska-Lincoln’s Nebraska Innovation Studio on Nebraska Innovation Campus.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-telepresence-robotics-have-been-used-so-far&quot;&gt;How Telepresence Robotics have been used (so far)&lt;/h3&gt;
+
+&lt;h4 id=&quot;some-stats&quot;&gt;Some Stats:&lt;/h4&gt;
+&lt;p&gt;From 12/1/17 - 2/27/18): 81 calls made, for a total time of 20 hours, 57 minutes, 25 seconds, by 8 pilots
+Types of engagements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tours of the spaces&lt;/li&gt;
+  &lt;li&gt;Project support&lt;/li&gt;
+  &lt;li&gt;Co-Teaching&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;trainings-and-project-support&quot;&gt;Trainings and Project support&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/BeamVinylcutter.jpg&quot; alt=&quot;Vinyl Cutter Training&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Charlie, via Beam®, helps  Dr. Barker and Vickie M. on the Vinyl Cutter&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the ways Beam® is being utilized is in trainings and project support. In the picture above, Charlie B. is supporting Vickie M. and Dr. Barker develop a project on the Vinyl Cutter. The Beam® has allowed the team to provide support on multiple projects using the laser cutter, CNC machine, and 3D Printer.  Charlie B. has used Beam® in conjunction with Zoom screen sharing when providing support with software.&lt;/p&gt;
+
+&lt;h4 id=&quot;co-teaching&quot;&gt;Co-Teaching&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Beamandbows.jpg&quot; alt=&quot;Sidney Create! Open House&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Dagen, via Beam®, co teaches the building of Light-up LED Bows during Sidney Create! Open House in December ‘17&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Co-teaching has been a rewarding experience for the project team and participants.  The co-teachers are usually a Beam® Pilot and a youth or teacher in the makerspace.  For example, during the Sidney Open house in December, Dagen co-taught a simple activity with Cynthia Gill and Youth Leaders.  The activity was making a light-up Bow/Bow-tie, from laser-cut cardstock, coin-cell battery, and a two-prong LED.&lt;/p&gt;
+
+&lt;p&gt;In another co-teaching opportunity, all the 5th graders from Sidney, NE toured the Sidney Makerspace and participated in design thinking activities.  Three Beam® Pilots: Dr. Barker, Charlie B, and Dagen (at different times) co-taught a short Lego-building challenge with Nebraska 4-H Educator Cynthia Gill and a local educator.&lt;/p&gt;
+
+&lt;h4 id=&quot;tours&quot;&gt;Tours&lt;/h4&gt;
+&lt;p&gt;We provide tours of the space pretty often, especially at the onset of the project.  The tours serve a double purpose.  One goal is to show off and tour the space with community and interested partners.  4-H Educators, Connie and Cynthia, have provided a telepresence tour during formal and impromptu meetings.  The other goal is to show off the Beam®.  People are pretty amazed the telepresence robot is so easy to control and how well the video and audio work.&lt;/p&gt;
+
+&lt;h4 id=&quot;more-to-come&quot;&gt;More to come&lt;/h4&gt;
+&lt;p&gt;The project team is using telepresence robotics to support the facilitation of a Maker Club in Sidney.  There will be more on that in later posts.&lt;/p&gt;
+
+&lt;p&gt;The team is seeking other ways to refine the uses of the Beam® technology.&lt;/p&gt;
+
+&lt;p&gt;####Reference&lt;/p&gt;
+
+&lt;p&gt;Stoll, B., Reig, S., He, L., Kaplan, I., Jung, M., &amp;amp; Fussell, S. R. (2018). “ Wait, Can You Move the Robot ?”: Examining Telepresence Robot Use in Collaborative Teams, (March). http://doi.org/10.1145/3171221.3171243&lt;/p&gt;</content><author><name>Dagen Valentine</name></author><summary type="html">BEAM® me up!!</summary></entry><entry><title type="html">Teacher and Student Thoughts: Experiencing VR</title><link href="http://localhost:4000/blog/2018/03/05/teacher-and-student-thoughts/" rel="alternate" type="text/html" title="Teacher and Student Thoughts: Experiencing VR" /><published>2018-03-05T00:00:00+01:00</published><updated>2018-03-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/2018/03/05/teacher-and-student-thoughts</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/05/teacher-and-student-thoughts/">&lt;h3 id=&quot;students-think-about-vr-as-we-pilot&quot;&gt;“Students Think About VR as We Pilot”&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Neal.png&quot; alt=&quot;Neal Grandgenett&quot; class=&quot;mugshot&quot; /&gt;`
+Hi everyone!  I am Dr. Neal Grandgenett, the external evaluator for the project, and the STEM Community Chair at the University of Nebraska at Omaha.  As the evaluator for the project, it is my honor and privilege to watch as the project evolves and to engage in all of the great thinking and efforts, not only by the CoPI team, but also by the teachers and students starting to use the project.  We are already getting some great thinking from possible stakeholders, and we recently had a teacher visit over two nights with 2 students each night.   They experienced several activities on the Alienware computer with the Oculus Rift were setup in the impressive location of UNL’s Nebraska Innovation Studio.&lt;/p&gt;
+
+&lt;p&gt;It was really neat to see the students dig into the VR, and all of us marveled as adults just how easily the four high school students navigated the VR experience, laughing and giggling the whole time.  It was quite impressive to see.&lt;/p&gt;
+
+&lt;p&gt;Afterwards, we ran a focus group on student thoughts and here are some things that they mentioned to us that they liked about the experience:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It was so fun. When you can mess with semi-physical objects in an illogical way, like blowing up fireworks while holding them something you wouldn’t do in real life.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It was so cool, I love VR. I liked being in a place/world where you can’t be.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I would like to use this more with an engineering point. Like CAD, I never got the hang of CAD.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In chemistry, it would be helpful for the models. Seeing how things react to one another. It would be easier to see how the things interact to do a thing. You could speed up the reactions instead of having 3-4 days for a single lab to get through.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In engineering you could probably build model bridges and figure out what would be wrong with them.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It was helpful having someone right next to me [virtually]. Connecting it to a student’s interest like art would be great”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It was kind of cool. It was helpful to co-learn together.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They did have a few thoughts for us to consider as we ramp VR experiences into standard school curriculums.  Here are a few quotes that will help us think about future strategies that might be undertaken in schools.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It got pretty tricky when working with others [in the VR space].”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Something like sculpting or artwork is a good place to start.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There were so many buttons [In the VR space] and it was really touchy with which buttons you pressed at which time.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sometimes things would happen that you didn’t exactly intend. I did start getting a headache after a while and I also didn’t have my glasses on and I didn’t know if I could focus quite right.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“My parents would be concerned to access to games on the internet. They would be nervous about the kind of games I could get my hands on fairly easily.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“VR didn’t really make me nervous until I ran in to the table in front of me.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Where can I [personally] buy one?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Thought it was interesting. When something did go wrong, it was fun to figure out what happened.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What a great group of students, and thanks again to Mr. Steve Hamersky, and Daniel J. Gross High School for participating in both the VR pilot and the focus groups.   We have three more teachers bringing students for more extensive pilots in April, and I will be sure to post a blog update and some pictures this next time of their efforts in action.&lt;/p&gt;
+
+&lt;p&gt;Again, what an exciting project and so proud to be a part of all of it!  Exciting stuff!
+Neal&lt;/p&gt;</content><author><name>Neal Grandgenett</name></author><summary type="html">“Students Think About VR as We Pilot”</summary></entry><entry><title type="html">Thought ‘Grenades’: First VR Experience</title><link href="http://localhost:4000/blog/2018/03/05/dagen-first-time/" rel="alternate" type="text/html" title="Thought 'Grenades': First VR Experience" /><published>2018-03-05T00:00:00+01:00</published><updated>2018-03-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/2018/03/05/dagen-first-time</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/05/dagen-first-time/">&lt;h3 id=&quot;thought-grenades-first-vr-experience&quot;&gt;“Thought ‘Grenades’: First VR Experience”&lt;/h3&gt;
+
+&lt;p&gt;Mind Blowing! 🤯 My first Experience in Virtual Reality with 
+&lt;a href=&quot;https://www.oculus.com&quot;&gt;Oculus Rift&lt;/a&gt; was so shocking and wonderful my brain couldn’t 
+fully comprehend the experience.   Removing the oculus headset, my mind was engaged 
+with processing the VR experience.  Additionally, my thoughts considered possibilities 
+and implications this could have in shaping learners’ experiences in 4-H/Extension and 
+other educational environments.&lt;/p&gt;
+
+&lt;p&gt;The team began with a kick-off meeting to discuss the project work and outcomes and have a discussion about VR.  The Alienware computer and Oculus Rift were setup in the expansive room of UNL’s Nebraska Innovation Studio.  My colleagues: Brad, Jenny, and Neal, and Max, and the new addition to our team, Andy Burnett, eagerly anticipated getting a hands-on experience with Oculus Rift VR.&lt;/p&gt;
+
+&lt;h4 id=&quot;getting-in-vr&quot;&gt;Getting in VR&lt;/h4&gt;
+
+&lt;p&gt;I placed the Oculus Rift headset on and adjusted the head straps for comfort.  I wear 
+glasses, so I adjusted a little more to make the fit comfortable.  Andy started, 
+the &lt;a href=&quot;https://www.oculus.com/experiences/rift/1217155751659625/&quot;&gt;FIRST CONTACT &lt;/a&gt; app.&lt;br /&gt;
+I was immediately surprised, and an audible “WOW” flew from my lips.  It was readily 
+apparent I could see the virtual world all around me as I physically moved my head 
+side-to-side and up-and-down.    I was coached a little by Andy to help me understand 
+the steps to engage in the VR environment.  In FIRST CONTACT, I was met by a robot,&lt;br /&gt;
+initially timid, that warmed to me and provided different Disks to put into a 3d-printer 
+like machine.  The first disk produced butterflies.  The on-screen prompts indicated, if 
+I held my hand still near a butterfly it would land on my finger.  I stuck out my virtual 
+hand and extended my finger (virtually and in reality).  The butterfly floated near and 
+landed on my finger. I was interacting with this new virtual environment!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/dagen2.png&quot; alt=&quot;My First Time&quot; class=&quot;mugshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next couple disks the robot provided me showed me how I could interact in VR
+using the Oculus Touch Controllers .   The Oculus Touch controllers have multiple 
+inputs: triggers, joystick, and buttons.   Using the physical buttons on the controllers 
+I could manipulate my virtual hands.  The second disk provided made sound makers.&lt;br /&gt;
+Using the buttons on the controller, my virtual hand would bend my fingers around an 
+object, such that I could pick it up.  I picked up the sound makers, one in each hand.&lt;br /&gt;
+I was encouraged by Andy to try the noise makers around each of my ears.  The audio was 
+surround-sound and responsive to the virtual environment.  The combination of audio and 
+visual that replicates reality helped me feel completely immersed in virtual reality.&lt;/p&gt;
+
+&lt;p&gt;Next, I learned to use my hands in tandem with a couple more disks provided to me by the robot.  I was able to pass objects between hands.  I even used both my hands to pull on a virtual string of a pull-string rocket.   I held the rocket in one hand and pinched the pull string with the other.  By moving my hands farther apart the string extended and lit the rockets engine!&lt;/p&gt;
+
+&lt;p&gt;I removed the headset.  I was back in reality.  Just from this initial experience in VR 
+my head was swimming with ideas.  I thought about:
+• implications for school related content exploration
+• ideas for access and opportunity e.g. visiting places on earth and in the universe 
+• thoughts about the safety of using VR
+• implications of the use of VR and the social emotional learning of youth&lt;/p&gt;
+
+&lt;p&gt;As we continue through the project, investigating and researching these ideas and 
+others I have yet to consider.  I am excited to enhance and create new learning experiences
+for the youth that I serve with VR.&lt;/p&gt;</content><author><name>Dagen Valentine</name></author><summary type="html">“Thought ‘Grenades’: First VR Experience”</summary></entry><entry><title type="html">Developing our first SOPs</title><link href="http://localhost:4000/blog/2018/03/02/ashley1/" rel="alternate" type="text/html" title="Developing our first SOPs" /><published>2018-03-02T00:00:00+01:00</published><updated>2018-03-02T00:00:00+01:00</updated><id>http://localhost:4000/blog/2018/03/02/ashley1</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/02/ashley1/">&lt;p&gt;Hello! 
+My name is Ashley, and I am a 19 year old student at the University of Nebraska. My first experience with virtual reality (VR) was definitely very different from what I expected. I thought that it would be just like playing video games while holding the screen very close to your face. I was not expecting to be immersed into the world of a video game. I was very pleasantly surprised, and within the context of my job, I was immediately thinking of how I would have responded to this as a ten year old kid. It would have been quite the experience.&lt;/p&gt;
+
+&lt;p&gt;Currently, I’m working on standard operating procedures (SOP’s) in order to introduce high school kids to virtual reality, and all the possibilities that come with it. It was my first experience writing an SOP and working with VR, so everything was a little green for me. We were specifically writing about medium, in which you can draw/sculpt/create in 3D. I personally thought the writing of it was generally easy; the whole project turned into more of “what would be most beneficial to know for a person who has never done VR before?”. So we wrote about everything we came across- the general stuff on the headset and controllers to links to videos that explain how to use the most basic tools within medium.&lt;/p&gt;
+
+&lt;p&gt;I think the final SOP was great in a word document, but not so great in practice. Somewhere along the way we had forgotten who we were writing this for- high school students. Kids who had grown up playing video games their entire lives. When they came in to test everything, they spent their time better by just playing with the game then they did watching all of the instructional videos we had found. I think our original SOP would be great for those who haven’t had much contact with this type of technology before; with the kids it was easier to give them some form of direction, and then just let them figure it out.&lt;/p&gt;
+
+&lt;p&gt;Currently, I have just finished writing an SOP for a similar program called MasterpieceVR, which is also a creative type of game. Within this, I used the short tutorial built within the program, that just gave a basic rundown of the program, and left it at that. I think this was a good decision considering the inefficiency of writing lots of instructions for something that is easier to learn by doing.&lt;/p&gt;
+
+&lt;p&gt;Currently, my coworkers (Matt and Matt) are working on doing Minecraft in VR. As they were surprised to hear, I have never played minecraft before. Therefore, I am the designated ‘guinea pig’ for their SOP once it is finished. We assume most kids will have some experience with this game, because it is so popular, but in order to efficiently instruct people who have no experience (like me) they need a pair of fresh eyes to see what needs to be explained. Unfortunately, that means I am kept in the dark until the first exposure. From what I understand, the idea behind using minecraft is so that we can create a space where kids from all over the world can log onto the same server to create real life structures, like buildings and cities, which is super awesome. It sounds like they’re having some difficulties with the servers, and with some of the technology our college uses.&lt;/p&gt;
+
+&lt;p&gt;I think the entirety of this experience so far has just really opened my eyes to the opportunities within VR- not just for education, but everything. You could have meetings from all across the world, or create a to-scale solution to real word problems, all within VR. I think the work that we are doing is just the tip of the iceberg.&lt;/p&gt;</content><author><name>Team</name></author><summary type="html">Hello! My name is Ashley, and I am a 19 year old student at the University of Nebraska. My first experience with virtual reality (VR) was definitely very different from what I expected. I thought that it would be just like playing video games while holding the screen very close to your face. I was not expecting to be immersed into the world of a video game. I was very pleasantly surprised, and within the context of my job, I was immediately thinking of how I would have responded to this as a ten year old kid. It would have been quite the experience.</summary></entry><entry><title type="html">Welcome to the project!</title><link href="http://localhost:4000/blog/2018/03/01/welcome/" rel="alternate" type="text/html" title="Welcome to the project!" /><published>2018-03-01T00:00:00+01:00</published><updated>2018-03-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/2018/03/01/welcome</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/01/welcome/">&lt;p&gt;This is where we describe the project.&lt;/p&gt;
+
+&lt;p&gt;We can include a link to &lt;a href=&quot;https://www.nsf.gov/awardsearch/showAward?AWD_ID=1723520&amp;amp;HistoricalAwards=false&quot; title=&quot;National Science Foundation&quot;&gt;the Award&lt;/a&gt;&lt;/p&gt;</content><author><name>Team</name></author><summary type="html">This is where we describe the project.</summary></entry></feed>
