@@ -8,14 +8,14 @@
         </a>
       </h4>
     </div>
-    <div id="collapse-{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <ul class="list-group">
+    <div id="collapse-{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-label="Side Navigation">
+      <div class="list-group">
         {% for item in section.docs %}
           {% assign item_url = item | prepend:"/docs/" | append:"/" %}
           {% assign p = site.docs | where:"url", item_url | first %}
           <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ p.url  | prepend: site.baseurl }}">{{ p.title }}</a>
         {% endfor %}
-      </ul>
+      </div>
     </div>
   </div>
 {% endfor %}
