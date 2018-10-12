@@ -18,6 +18,23 @@ cd jekyll-doc-theme
 bundle exec jekyll serve
 ```
 
+## Docker
+
+Alternatively, you can deploy it using the multi-stage [Dockerfile](Dockerfile)
+that serves files from Nginx for better performance in production.
+
+Build the image for your site's `JEKYLL_BASEURL`:
+
+```
+docker build --build-arg JEKYLL_BASEURL="/" -t jekyll-doc-theme .
+```
+
+and serve it:
+
+```
+docker run -p 8080:80 jekyll-doc-theme
+```
+
 ## License
 
 Released under [the MIT license](LICENSE).

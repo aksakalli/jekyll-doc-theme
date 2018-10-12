@@ -37,10 +37,10 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
-    jekyll-watch (2.0.0)
+    jekyll-watch (2.1.1)
       listen (~> 3.0)
     kramdown (1.17.0)
-    liquid (4.0.0)
+    liquid (4.0.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -52,7 +52,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rouge (3.2.1)
+    rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
     sass (3.6.0)
@@ -73,7 +73,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.3.7p456
 
 BUNDLED WITH
-   1.16.5
+   1.16.2
