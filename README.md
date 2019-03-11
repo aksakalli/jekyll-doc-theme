@@ -26,10 +26,10 @@ that serves files from Nginx for better performance in production.
 Build the image for your site's `JEKYLL_BASEURL`:
 
 ```
-docker build --build-arg JEKYLL_BASEURL="/" -t jekyll-doc-theme .
+docker build --build-arg JEKYLL_BASEURL="/your-base/url" -t jekyll-doc-theme .
 ```
 
-and serve it:
+(or leave it empty for root: `JEKYLL_BASEURL=""`) and serve it:
 
 ```
 docker run -p 8080:80 jekyll-doc-theme
