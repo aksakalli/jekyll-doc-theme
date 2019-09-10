@@ -78,6 +78,11 @@ docker run -p 8080:80 jekyll-doc-theme
 * https://docs.oneflowcloud.com/
 * https://actlist.silentsoft.org/
 * https://teevid.github.io
+* https://developer.ipums.org
+* https://osmpersia.github.io (right-to-left)
+* https://ecmlpkdd2019.org
+* https://idle.land
+* https://mqless.com
 
 ## License
 
