@@ -83,6 +83,9 @@ docker run -p 8080:80 jekyll-doc-theme
 * https://ecmlpkdd2019.org
 * https://idle.land
 * https://mqless.com
+* https://muict-seru.github.io/
+* https://www.invoice-x.org
+* https://www.devops.geek.nz
 
 ## License
 
