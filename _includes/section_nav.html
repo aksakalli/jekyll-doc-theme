@@ -24,7 +24,7 @@ next, lets build a link to it.
         {% assign previous = forloop.index0 | minus: 1 %}
         {% assign previous_page = docs[previous] | prepend:"/docs/" | append:"/" %}
         <li class="previous">
-          <a href="{{ previous_page | prepend: site.baseurl }}">
+          <a href="{{ previous_page | relative_url }}">
             <span aria-hidden="true">&larr;</span> Previous
           </a>
         </li>
@@ -40,7 +40,7 @@ next, lets build a link to it.
         {% assign next = forloop.index0 | plus: 1 %}
         {% assign next_page = docs[next] | prepend:"/docs/" | append:"/" %}
         <li class="next">
-          <a href="{{ next_page | prepend: site.baseurl }}">
+          <a href="{{ next_page | relative_url }}">
             Next <span aria-hidden="true">&rarr;</span>
           </a>
         </li>
