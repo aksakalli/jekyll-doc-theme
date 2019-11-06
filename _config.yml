@@ -11,14 +11,15 @@ url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol
 git_address: https://github.com/aksakalli/jekyll-doc-theme
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
-# theme options from https://bootswatch.com/
+# theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: paper
+bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-gems:
+# Plugins (previously gems:)
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
