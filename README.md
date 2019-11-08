@@ -23,7 +23,7 @@ bundle exec jekyll serve
 
 ### Theme Assets
 
-As of the move to support (Github Pages)[https://pages.github.com/] a number of files have been relocated to the `/asset` folder.
+As of the move to support [Github Pages](https://pages.github.com/) a number of files have been relocated to the `/asset` folder.
 - css/
 - fonts/
 - img/
@@ -51,7 +51,7 @@ docker run -p 8080:80 jekyll-doc-theme
 
 ## Github Pages
 
-The theme is also available to (Github Pages)[https://pages.github.com/] by making use of the (Remote Theme)[https://github.com/benbalter/jekyll-remote-theme] plugin:
+The theme is also available to [Github Pages](https://pages.github.com/] by making use of the (Remote Theme)[https://github.com/benbalter/jekyll-remote-theme) plugin:
 
 **Gemfile**
 ```
