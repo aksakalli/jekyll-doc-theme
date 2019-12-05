@@ -19,6 +19,8 @@ span.twitter-typeahead {
     }
     // Added to suggestion elements.
     .tt-suggestion {
+        color: $navbar-default-color;
+
         // mimic .dropdown-menu > li > a
         padding: 3px 20px;
         line-height: $line-height-base;
