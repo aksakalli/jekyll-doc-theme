@@ -104,6 +104,8 @@ $container-large-desktop: (900px + $grid-gutter-width) !default;
 ## Projects using Jekyll Doc Theme
 
 * http://teavm.org/
+* https://ogb.stanford.edu/
+* https://griddb.org/
 * https://su2code.github.io/
 * https://launchany.github.io/mvd-template/
 * https://knowit.github.io/kubernetes-workshop/
