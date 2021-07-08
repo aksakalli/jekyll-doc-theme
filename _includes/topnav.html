@@ -17,6 +17,7 @@
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a></li>
 				<li {% if page.sectionid=='Jade 001' %} class="active" {% endif %}><a href="{{ "001_tab.html" | relative_url }}">Jade 001</a></li>
 				<li {% if page.sectionid=='Jade Image and Text Collection' %} class="active" {% endif %}><a href="{{ "texts_images_tab.html" | relative_url }}">Jade Image and Text Collection</a></li>
+				<li (% if page.sectionid=='Jade010 and Jade011 Comparison' %} class="active" {% endif %}><a href="{{ "010_011_tab.html" | relative_url }}">Jade010 and Jade 011 Comparison</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
