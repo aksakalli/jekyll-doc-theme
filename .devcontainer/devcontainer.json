@@ -7,12 +7,15 @@
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {}
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 		// "ghcr.io/joedmck/devcontainer-features/wrangler:1": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [4000]
+	"forwardPorts": [4000],
+
+	"postStartCommand": "nohup bash -c 'bundle exec jekyll serve &'"
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "jekyll --version"
