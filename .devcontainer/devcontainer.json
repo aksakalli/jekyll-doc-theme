@@ -15,7 +15,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [4000],
 
-	"postStartCommand": "nohup bash -c 'bundle exec jekyll serve &'"
+	"postStartCommand": "nohup bash -c 'bundle exec jekyll serve --livereload --incremental --force_polling &'"
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "jekyll --version"
