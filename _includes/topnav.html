@@ -1,21 +1,76 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container navbar-container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">
-                <span><img src="{{ "/assets/img/logonav.png" | relative_url }}" alt="Logo"></span> {{ site.title }}
+                <span><img src="{{ "/assets/img/logonav.png" | relative_url }}" alt="Logo"></span> {{ }}
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a></li>
-            </ul>
+            <div class="navbar-left">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://github.com/shenyangHuang/TGB/tree/main/docs">Docs</a></li>
+                    <li {% if page.sectionid=='Updates' %} class="active" {% endif %}><a href="{{ "/docs/update/" |
+                            relative_url }}">Updates</a></li>
+                    <li {% if page.sectionid=='Datasets' %} class="dropdown" {% endif %}><a class="dropdown-toggle"
+                            data-toggle="dropdown" href="#">
+                            Datasets <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ "/docs/dataset_overview/" | relative_url }}">Overview</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/nodeprop/" | relative_url }}">Node Property Prediction</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/linkprop/" | relative_url }}">Link Property Prediction</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/graphprop/" | relative_url }}">Graph Property Prediction</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/lsc/" | relative_url }}">Large-Scale Challenge</a></li>
+                        </ul>
+                    </li>
+                    <li {% if page.sectionid=='Leaderboard' %} class="dropdown" {% endif %}><a class="dropdown-toggle"
+                            data-toggle="dropdown" href="#">
+                            Leaderboards <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ "/docs/leader_overview/" | relative_url }}">Overview</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/leader_rules/" | relative_url }}">Rules</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/leader_nodeprop/" | relative_url }}">Node Property Prediction</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/leader_linkprop/" | relative_url }}">Link Property Prediction</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/leader_graphprop/" | relative_url }}">Graph Property Prediction</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="{{ "/docs/lsc/leaderboards/" | relative_url }}">Large-Scale Challenge</a></li>
+                        </ul>
+                    </li>
+                    <li {% if page.sectionid=='Papers' %} class="dropdown" {% endif %}><a class="dropdown-toggle"
+                            data-toggle="dropdown" href="#">
+                            Papers <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://arxiv.org/abs/2005.00687">OGB paper</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://arxiv.org/abs/2103.09430">OGB-LSC paper</a></li>
+                        </ul>
+                    </li>
+                    {% comment %} <li {% if page.sectionid=='Paper' %} class="active" {% endif %}><a
+                            href="{{ site.paper_address }}">Paper</a></li> {% endcomment %}
+                    <li {% if page.sectionid=='Team' %} class="active" {% endif %}><a href="{{ "/docs/team/" |
+                            relative_url }}">Team</a></li>
+                    <!-- <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a></li> -->
+            </div>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
                     <div class="form-group has-feedback">
