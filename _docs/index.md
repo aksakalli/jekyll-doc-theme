@@ -12,7 +12,7 @@ The good thing about coupling your documentation with the source repo is, whenev
 
 1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
 2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `assets/img/logonav.png` with your own logo.
+3. Replace `favicon.ico` and `assets/img/TGB_nav.png` with your own logo.
 
 ## Writing content
 

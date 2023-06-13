@@ -1,5 +1,5 @@
 ---
-title: OGB Dataset Overview
+title: TGB Dataset Overview
 permalink: /docs/dataset_overview/
 ---
 
@@ -10,7 +10,7 @@ permalink: /docs/dataset_overview/
     <div class="row">
         <div class="col-md-6">
             <p class="lead">
-                The Open Graph Benchmark (OGB) aims to provide graph datasets that cover important graph machine learning tasks, diverse dataset scale, and rich domains.
+                The Temporal Graph Benchmark~(TGB) aims to provide datasets and evaluation protocols for realistic, reproducible, and robust evaluation for machine learning on temporal graphs. 
             </p>
             <p class="lead">
                 <b>Multiple task categories:</b> We cover three fundamental graph machine learning task categories: predicting the properties of <a href="../nodeprop/">nodes</a>, <a href="../linkprop/">links</a>, and <a href="../graphprop/">graphs</a>.  <br/>
@@ -23,7 +23,7 @@ permalink: /docs/dataset_overview/
             </p>
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ "/assets/img/dataset_overview.png" | relative_url }}" class="img-responsive">
+            <img src="{{ "/assets/img/dataset_stats.png" | relative_url }}" class="img-responsive">
         </div>
     </div>
 </div>
