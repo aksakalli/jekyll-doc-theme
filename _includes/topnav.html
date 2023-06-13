@@ -15,9 +15,7 @@
         <div id="navbar" class="collapse navbar-collapse">
             <div class="navbar-left">
                 <ul class="nav navbar-nav">
-                    <li><a href="https://github.com/shenyangHuang/TGB/tree/main/docs">Docs</a></li>
-                    <li {% if page.sectionid=='Updates' %} class="active" {% endif %}><a href="{{ "/docs/update/" |
-                            relative_url }}">Updates</a></li>
+                    <li><a href="https://shenyanghuang.github.io/TGB/">Docs</a></li>
                     <li {% if page.sectionid=='Datasets' %} class="dropdown" {% endif %}><a class="dropdown-toggle"
                             data-toggle="dropdown" href="#">
                             Datasets <span class="caret"></span>
@@ -69,6 +67,8 @@
                             href="{{ site.paper_address }}">Paper</a></li> {% endcomment %}
                     <li {% if page.sectionid=='Team' %} class="active" {% endif %}><a href="{{ "/docs/team/" |
                             relative_url }}">Team</a></li>
+                    <li {% if page.sectionid=='Updates' %} class="active" {% endif %}><a href="{{ "/docs/update/" |
+                                relative_url }}">Updates</a></li>
                     <!-- <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a></li> -->
             </div>
             <div class="navbar-right">

@@ -1,11 +1,11 @@
 ---
-title: OGB Team
+title: TGB Team
 permalink: /docs/team/
 ---
 
 ### Core Development
 
-The core development team can be reached at <ogb@cs.stanford.edu>. 
+The core development team can be reached at <shenyang.huang@mail.mcgill.ca>. 
 
 <table style="background-color:#FDFEFE; border:none;">
   <tr>
@@ -62,7 +62,7 @@ The core development team can be reached at <ogb@cs.stanford.edu>.
   </tr> 
 </table>
 
-
+<!-- 
 ------
 
 ### Steering Committee
@@ -159,4 +159,4 @@ The core development team can be reached at <ogb@cs.stanford.edu>.
       </div>
     </td>
   </tr> 
-</table>
+</table> -->

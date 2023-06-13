@@ -1,9 +1,49 @@
 ---
-title: Welcome
+title: Get Started
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
+### pypi Installation
 
+```
+pip install py-tgb
+```
+see our [pypi page](https://pypi.org/project/py-tgb/)
+
+
+
+### Manually Install Dependency
+Our implementation works with python >= 3.9 and can be installed as follows
+
+1. set up virtual environment (conda should work as well)
+```
+python -m venv ~/tgb_env/
+source ~/tgb_env/bin/activate
+```
+
+2. install external packages
+```
+pip install pandas==1.5.3
+pip install matplotlib==3.7.1
+pip install clint==0.5.1
+```
+
+install Pytorch and PyG dependencies (needed to run the examples)
+```
+pip install torch==2.0.0 --index-url https://download.pytorch.org/whl/cu117
+pip install torch_geometric==2.3.0
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
+```
+
+3. install local dependencies under root directory `/TGB`
+```
+pip install -e .
+```
+
+
+
+
+<!-- 
 ## Getting started
 
 [GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
@@ -47,4 +87,4 @@ Add a new Markdown file such as `2017-05-09-my-post.md` and write the content si
 
 The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
 
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`. -->
