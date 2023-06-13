@@ -3,11 +3,37 @@ title: TGB Team
 permalink: /docs/team/
 ---
 
-### Core Development
+<!-- ### TGB Team -->
 
-The core development team can be reached at <shenyang.huang@mail.mcgill.ca>. 
+The TGB team can be reached at <shenyang.huang@mail.mcgill.ca>. 
 
 <table style="background-color:#FDFEFE; border:none;">
+  <tr>
+    <td>
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/andy.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://www.cs.mcgill.ca/~shuang43/">Shenyang Huang</a></strong> <br/> Mila, McGill University
+      </div>
+    </td>
+    <td style="text-center">
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/farimah.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://fpour.github.io/">Farimah Poursafaei</a></strong> <br/> Mila, McGill University
+      </div>
+    </td>
+    <td>
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/jacob.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://jacobdanovitch.me/">Jacob Danovitch</a></strong> <br/> Mila, McGill University
+      </div>
+    </td>
+    <td>
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/matthias.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://rusty1s.github.io/#/">Matthias Fey</a></strong> <br/> TU Dortmund
+      </div>
+    </td>
+  </tr> 
   <tr>
     <td>
     <div style="margin: 0 auto; width: 180px; text-align: center">
@@ -17,46 +43,34 @@ The core development team can be reached at <shenyang.huang@mail.mcgill.ca>.
     </td>
     <td>
     <div style="margin: 0 auto; width: 180px; text-align: center">
-      <img src="{{ "/assets/img/portrait/matthias.png" | relative_url }}" class="img-responsive">
-      <strong><a href="https://rusty1s.github.io/#/">Matthias Fey</a></strong> <br/> TU Dortmund
-      </div>
-    </td>
-    <td>
-    <div style="margin: 0 auto; width: 180px; text-align: center">
-      <img src="{{ "/assets/img/portrait/marinka.png" | relative_url }}" class="img-responsive">
-      <strong><a href="https://zitniklab.hms.harvard.edu/">Marinka Zitnik</a></strong> <br/> Harvard University
-      </div>
-    </td>
-    <td style="text-center">
-    <div style="margin: 0 auto; width: 180px; text-align: center">
-      <img src="{{ "/assets/img/portrait/yuxiao.png" | relative_url }}" class="img-responsive">
-      <strong><a href="https://ericdongyx.github.io/">Yuxiao Dong</a></strong> <br/> Facebook AI
-      </div>
-    </td>
-  </tr> 
-  <tr>
-    <td>
-    <div style="margin: 0 auto; width: 180px; text-align: center">
-      <img src="{{ "/assets/img/portrait/hongyu.png" | relative_url }}" class="img-responsive">
-      <strong><a href="http://hyren.me/">Hongyu Ren</a></strong> <br/> Stanford University
-      </div>
-    </td>
-    <td>
-    <div style="margin: 0 auto; width: 180px; text-align: center">
-      <img src="{{ "/assets/img/portrait/bowen.png" | relative_url }}" class="img-responsive">
-      <strong><a href="https://www.linkedin.com/in/bowen-liu-18401336/">Bowen Liu</a></strong> <br/> Insitro
-      </div>
-    </td>
-    <td>
-    <div style="margin: 0 auto; width: 180px; text-align: center">
-      <img src="{{ "/assets/img/portrait/michele.png" | relative_url }}" class="img-responsive">
-      <strong><a href="https://github.com/pirroh">Michele Catasta</a></strong> <br/> Stanford University
+      <img src="{{ "/assets/img/portrait/ema.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://emanuelerossi.co.uk/">Emanuele Rossi</a></strong> <br/> Imperial College London
       </div>
     </td>
     <td>
     <div style="margin: 0 auto; width: 180px; text-align: center">
       <img src="{{ "/assets/img/portrait/jure.png" | relative_url }}" class="img-responsive">
       <strong><a href="https://cs.stanford.edu/people/jure/">Jure Leskovec</a></strong> <br/> Stanford University
+      </div>
+    </td>
+    <td>
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/michael.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://www.cs.ox.ac.uk/people/michael.bronstein/">Michael Bronstein</a></strong> <br/> University of Oxford
+      </div>
+    </td>
+  </tr> 
+  <tr>
+    <td>
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/guillaume.png" | relative_url }}" class="img-responsive">
+      <strong><a href="https://www-labs.iro.umontreal.ca/~grabus/">Guillaume Rabusseau</a></strong> <br/> Mila, Université de Montréal, CIFAR AI Chair
+      </div>
+    </td>
+    <td>
+    <div style="margin: 0 auto; width: 180px; text-align: center">
+      <img src="{{ "/assets/img/portrait/reihaneh.png" | relative_url }}" class="img-responsive">
+      <strong><a href="http://www.reirab.com/">Reihaneh Rabbany</a></strong> <br/> Mila, McGill University, CIFAR AI Chair
       </div>
     </td>
   </tr> 
