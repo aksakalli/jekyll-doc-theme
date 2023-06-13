@@ -3,21 +3,26 @@ title: Link Property Prediction
 permalink: /docs/linkprop/
 ---
 
+<style>
+r { color: rgb(231, 41, 138) }
+b { color: Blue }
+g { color: rgb(27, 158, 119) }
+</style>
+
+
 ##### The task is to predict properties of edges (pairs of nodes).
 
 ### Summary
 
 #### - Datasets
 
-Scale | Name      | Package | #Nodes | #Edges\* |  Split Type   | Task Type     | Metric       |
+Scale | Name      | Package | #Nodes | #Edges\* |  #Steps  | Surprise     | Metric       |
 |:---------:|:--------|:---------:|----------:|----------:|:----------------:|:------------------:|:----------------:|
-Medium | [ogbl-ppa](#ogbl-ppa)      | >=1.1.1   | 576,289 |    30,326,273 |    Throughput  | Link prediction   |     Hits@100              |
-Small | [ogbl-collab](#ogbl-collab)  | >=1.2.1       | 235,868 |    1,285,465 |     Time  | Link prediction   |     Hits@50              |
-Small | [ogbl-ddi](#ogbl-ddi)       | >=1.2.1  | 4,267 |    1,334,889 |     Protein target  | Link prediction   |     Hits@20              |
-Medium | [ogbl-citation2](#ogbl-citation2) | >=1.2.4       | 2,927,963 |    30,561,187 |     Time  | Link prediction   |     MRR      |
-Medium | [ogbl-wikikg2](#ogbl-wikikg2)  | >=1.2.4       | 2,500,604 |    17,137,181 |     Time  | KG completion   |    MRR     |
-Small | [ogbl-biokg](#ogbl-biokg)   | >=1.2.0      | 93,773 |  5,088,434 |  Random  | KG completion   |    MRR     |
-Medium | [ogbl-vessel](#ogbl-vessel)*   | >=1.3.4      | 3,538,495 |  5,345,897 |  Random  | Link prediction   |    ROC-AUC     |
+<r>Small</r> | [tgbl-wiki](#tgbl-wiki)      | 0.1.2   | 9,227 |    157,474  |   152,757  | 0.108   |     MRR              |
+<r>Small</r> | [tgbl-review](#tgbl-review)  | 0.1.2       | 352,637 |    4,873,540 |    6,865  | 0.987   |     MRR              |
+<b>medium</b> | [tgbl-coin](#tgbl-coin)       | 0.1.2  | 638,486 |  22,809,486 |   1,295,720  | 0.120   |     MRR              |
+<g>large</g> | [tgbl-comment](#tgbl-comment) | 0.1.2       | 994,790 |   44,314,507 |   30,998,030  |  0.823   |     MRR      |
+<g>large</g> | [tgbl-flight](#tgbl-flight)  | 0.1.2       | 18143 |   67,169,570 |   1,385  | 0.024   |    MRR     |
 
 **Note:** For undirected graphs, the loaded graphs will have the doubled number of edges because we add the bidirectional edges automatically.
 \* indicates the externally-contributed datasets.

@@ -23,13 +23,13 @@
                         <ul class="dropdown-menu">
                             <li><a href="{{ "/docs/dataset_overview/" | relative_url }}">Overview</a></li>
                             <li class="divider"></li>
-                            <li><a href="{{ "/docs/nodeprop/" | relative_url }}">Node Property Prediction</a></li>
+                            <li><a href="{{ "/docs/linkprop/" | relative_url }}">Dynamic Link Property Prediction</a></li>
                             <li class="divider"></li>
-                            <li><a href="{{ "/docs/linkprop/" | relative_url }}">Link Property Prediction</a></li>
-                            <li class="divider"></li>
-                            <li><a href="{{ "/docs/graphprop/" | relative_url }}">Graph Property Prediction</a></li>
-                            <li class="divider"></li>
-                            <li><a href="{{ "/docs/lsc/" | relative_url }}">Large-Scale Challenge</a></li>
+                            <li><a href="{{ "/docs/nodeprop/" | relative_url }}">Dynamic Node Property Prediction</a></li>
+                            <!-- <li class="divider"></li> -->
+                            <!-- <li><a href="{{ "/docs/graphprop/" | relative_url }}">Graph Property Prediction</a></li>
+                            <li class="divider"></li> -->
+                            <!-- <li><a href="{{ "/docs/lsc/" | relative_url }}">Large-Scale Challenge</a></li> -->
                         </ul>
                     </li>
                     <li {% if page.sectionid=='Leaderboard' %} class="dropdown" {% endif %}><a class="dropdown-toggle"
@@ -41,16 +41,11 @@
                             <li class="divider"></li>
                             <li><a href="{{ "/docs/leader_rules/" | relative_url }}">Rules</a></li>
                             <li class="divider"></li>
-                            <li><a href="{{ "/docs/leader_nodeprop/" | relative_url }}">Node Property Prediction</a>
+                            <li><a href="{{ "/docs/leader_linkprop/" | relative_url }}">Dynamic Link Property Prediction</a>
                             </li>
                             <li class="divider"></li>
-                            <li><a href="{{ "/docs/leader_linkprop/" | relative_url }}">Link Property Prediction</a>
+                            <li><a href="{{ "/docs/leader_nodeprop/" | relative_url }}">Dynamic Node Property Prediction</a>
                             </li>
-                            <li class="divider"></li>
-                            <li><a href="{{ "/docs/leader_graphprop/" | relative_url }}">Graph Property Prediction</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li><a href="{{ "/docs/lsc/leaderboards/" | relative_url }}">Large-Scale Challenge</a></li>
                         </ul>
                     </li>
                     <li {% if page.sectionid=='Papers' %} class="dropdown" {% endif %}><a class="dropdown-toggle"
@@ -58,9 +53,9 @@
                             Papers <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://arxiv.org/abs/2005.00687">OGB paper</a></li>
+                            <li><a href="https://openreview.net/forum?id=qG7IkQ7IBO">TGB paper</a></li>
                             <li class="divider"></li>
-                            <li><a href="https://arxiv.org/abs/2103.09430">OGB-LSC paper</a></li>
+                            <!-- <li><a href="https://arxiv.org/abs/2103.09430">OGB-LSC paper</a></li> -->
                         </ul>
                     </li>
                     {% comment %} <li {% if page.sectionid=='Paper' %} class="active" {% endif %}><a
@@ -79,7 +74,7 @@
                     </div>
                 </form>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ site.git_address }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/shenyangHuang/TGB"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
