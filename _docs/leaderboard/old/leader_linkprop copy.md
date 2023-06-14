@@ -14,24 +14,38 @@ The **bold** method name indicates that the implementation is **official** (by t
 **Package** denotes the required package version for each dataset to be eligible for the leaderboard.
 
 
-<a name="tgbl-wiki"/>
+<a name="ogbl-ppa"/>
 
 -------
 
-### Leaderboard for [tgbl-wiki](../linkprop/#tgbl-wiki)
-##### The MRR score on the test and validation sets. The higher, the better.
+### Leaderboard for [ogbl-ppa](../linkprop/#ogbl-ppa)
+##### The Hits@100 score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=1.1.1
 
-| Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
-|:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
-|  1  |  **CAWN**  | 0.791 ± 0.015   | 0.794 ± 0.014 | [TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](http://snap.stanford.edu/caw/), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
-|  2  |  **TGN**  | 0.721 ± 0.004   | 0.737 ± 0.004 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2006.10637), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
-|  3  |  **TCL**  | 0.712 ± 0.007   | 0.734 ± 0.007 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2105.07944), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
-|  4  |  **GraphMixer**  | 0.701 ± 0.014   | 0.707 ± 0.014 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=ayPPc0SyLv1), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
-|  5  |  **EdgeBank(tw)**  | 0.641   | 0.641 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
-|  6  |  **EdgeBank(unlimited)**  | 0.538   |  0.551 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
-|  7  |  **DyRep**  | 0.366 ± 0.014   | 0.411 ± 0.015 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
+| Rank  | Method | Ext. data | Test Hits@100 | Validation Hits@100 | Contact | References | #Params | Hardware | Date 
+|:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|:-----:|:-----:|
+|  1  |  **SIEG**  | No | 0.6322 ± 0.0174   | 0.6533 ± 0.0234 |[anonymous20221001](mailto:anonymous20221001@126.com) | [Paper](https://github.com/anonymous20221001/SIEG_OGB/blob/master/OGB_VESSEL_SIEG.pdf), [Code](https://github.com/anonymous20221001/SIEG_OGB) | 1,993,965 | P100 (16GB) | Mar 24, 2023 |
+|  2  |  **Neural Common Neighbor **  | No | 0.6119 ± 0.0085   | 0.6021 ± 0.0037 |[Xiyuan Wang (Peking University)](mailto:wangxiyuan@pku.edu.cn) | [Paper](https://arxiv.org/abs/2302.00890), [Code](https://github.com/GraphPKU/NeuralCommonNeighbor) | 33,538 | RTX 4090 (24GB) | Mar 17, 2023 |
+|  3  |  **NGNN + SEAL**  | No | 0.5971 ± 0.0245   | 0.5995 ± 0.0205 |[Yakun Song(DGL)](mailto:ereboas@sjtu.edu.cn) | [Paper](https://arxiv.org/abs/2111.11638), [Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ngnn_seal) | 735,426 | Tesla T4(16GB) | Sep 21, 2022 |
+|  4  |  **SUREL+**  | No | 0.5432 ± 0.0044   | 0.5492 ± 0.0112 |[Haoteng Yin (Purdue University)](mailto:yinht@purdue.edu) | [Paper](https://arxiv.org/abs/2303.03379), [Code](https://github.com/Graph-COM/SUREL_Plus) | 52,802 | NVIDIA A100 (80G) | Feb 20, 2023 |
+|  5  |  **RA+Edge Proposal Set**  | No | 0.5324 ± 0.0000   | 0.5142 ± 0.0000 |[Qian Huang (Stanford)](mailto:qhwang@stanford.edu) | [Paper](https://arxiv.org/abs/2106.15810), [Code](https://github.com/CUAI/Edge-Proposal-Sets) | 0 | GeForce RTX 2080 Ti (11GB GPU) | Oct 5, 2021 |
+|  6  |  **MLP+CN&RA&AA**  | No | 0.5062 ± 0.0035   | 0.4906 ± 0.0029 |[Shitao Lu](mailto:lusto32768@gmail.com) | [Paper](https://github.com/lustoo/OGB_link_prediction/blob/main/Link%20prediction%20with%20structural%20information.pdf), [Code](https://github.com/lustoo/OGB_link_prediction) | 163,330 | Geforce GTX 1080 Ti (11GB) | Aug 9, 2021 |
+|  7  |  Resource Allocation  | No | 0.4933 ± 0.0000   | 0.4722 ± 0.0000 | [Shen Fan(Alibaba Group)](mailto:ofanshen@gmail.com) | [Paper](https://arxiv.org/pdf/0901.0553.pdf), [Code](https://github.com/fs302/EasyLink/blob/main/example/ogbl_ppa_ra.py) | 0 | Tesla-V100(32GB GPU) | Jul 5, 2021 |
+|  8  |  **SEAL**  | No | 0.4880 ± 0.0316   | 0.5125 ± 0.0252 |[Muhan Zhang](mailto:muhan.zhang@hotmail.com) | [Paper](https://arxiv.org/pdf/2010.16103.pdf), [Code](https://github.com/facebookresearch/SEAL_OGB) | 709,122 | GeForce RTX 2080S (8GB GPU) | Oct 14, 2020 |
+|  9  |  **AGDN**  | No | 0.4123 ± 0.0159   | 0.4332 ± 0.0092 |[Chuxiong Sun](mailto:chuxiongsun@gmail.com) | [Paper](https://arxiv.org/abs/2012.15024), [Code](https://github.com/skepsun/Adaptive-Graph-Diffusion-Networks) | 36,904,259 | Tesla V100 (16GB GPU) | Sep 2, 2022 |
+|  10  |  **NGNN + GraphSAGE**  | No | 0.4005 ± 0.0138   | 0.4058 ± 0.0123 |[Yakun Song(DGL)](mailto:ereboas@sjtu.edu.cn) | [Paper](https://arxiv.org/abs/2111.11638), [Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ngnn) | 556,033 | Tesla-V100(16GB GPU) | Aug 16, 2022 |
+|  11  |  **NGNN + GCN**  | No | 0.3683 ± 0.0099   | 0.3834 ± 0.0082 |[Yakun Song(DGL)](mailto:ereboas@sjtu.edu.cn) | [Paper](https://arxiv.org/abs/2111.11638), [Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ngnn) | 410,113 | Tesla-V100(16GB GPU) | Aug 16, 2022 |
+|  12  |  Adamic Adar  | No | 0.3245 ± 0.0000   | 0.3268 ± 0.0000 | [Muhan Zhang](mailto:muhan.zhang@hotmail.com) | [Paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.1370&rep=rep1&type=pdf), [Code](https://github.com/facebookresearch/SEAL_OGB) | 0 | GeForce RTX 2080S (8GB GPU) | Feb 12, 2021 |
+|  13  |  Matrix Factorization  | No | 0.3229 ± 0.0094   | 0.3228 ± 0.0428 | [Matthias Fey -- OGB team](mailto:matthias.fey@tu-dortmund.de) | [Paper](https://arxiv.org/abs/2005.00687), [Code](https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa) | 147,662,849 | GeForce RTX 2080 (11GB GPU) | May 1, 2020 |
+|  14  |  DeepWalk  | No | 0.2888 ± 0.0153   | [Please tell us](mailto:ogb@cs.stanford.edu) | [Hao Xiong (DGL)](mailto:taxuexh@sjtu.edu.cn) | [Paper](https://arxiv.org/pdf/1403.6652.pdf), [Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk) | 150,138,741 | g4dn.2xlarge, T4 (15GB GPU) | Jul 23, 2020 |
+|  15  |  Common Neighbor  | No | 0.2765 ± 0.0000   | 0.2823 ± 0.0000 | [Muhan Zhang](mailto:muhan.zhang@hotmail.com) | [Paper](http://www.eecs.harvard.edu/~michaelm/CS222/linkpred.pdf), [Code](https://github.com/facebookresearch/SEAL_OGB) | 0 | GeForce RTX 2080S (8GB GPU) | Feb 12, 2021 |
+|  16  |  DeepWalk  | No | 0.2302 ± 0.0163   | [Please tell us](mailto:ogb@cs.stanford.edu) | [Hao Xiong (DGL)](mailto:taxuexh@sjtu.edu.cn) | [Paper](https://arxiv.org/pdf/1403.6652.pdf), [Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk) | 150,138,741 | g4dn.2xlarge, T4 (15GB GPU) | Jun 30, 2020 |
+|  17  |  Node2vec  | No | 0.2226 ± 0.0083   | 0.2253 ± 0.0088 | [Matthias Fey -- OGB team](mailto:matthias.fey@tu-dortmund.de) | [Paper](https://arxiv.org/abs/1607.00653), [Code](https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa) | 73,878,913 | GeForce RTX 2080 (11GB GPU) | May 1, 2020 |
+|  18  |  GCN  | No | 0.1867 ± 0.0132   | 0.1845 ± 0.0140 | [Matthias Fey -- OGB team](mailto:matthias.fey@tu-dortmund.de) | [Paper](https://arxiv.org/abs/1609.02907), [Code](https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa) | 278,529 | GeForce RTX 2080 (11GB GPU) | Jun 25, 2020 |
+|  19  |  GraphSAGE  | No | 0.1655 ± 0.0240   | 0.1724 ± 0.0264 | [Matthias Fey -- OGB team](mailto:matthias.fey@tu-dortmund.de) | [Paper](https://arxiv.org/abs/1706.02216), [Code](https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa) | 424,449 | GeForce RTX 2080 (11GB GPU) | Jun 25, 2020 |
+
+
 
 
 <a name="ogbl-collab"/>

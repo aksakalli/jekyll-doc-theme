@@ -29,6 +29,12 @@ permalink: /docs/dataset_overview/
 </div>
 ----
 
+### **Dataset splits** 
+<p class="lead">
+<font size="5">
+All datasets are split chronologically into the train, validation and test set with 70%, 15% and 15% of the edges respectively </font>
+</p>
+
 ### **Contributing datasets**
 <p class="lead">
 <font size="5">TGB welcomes community feedback and contributions, if you would like to contribute a datasets or raise an issue, please reach out <a href="shenyang.huang@mail.mcgill.ca">by email</a>. </font>
