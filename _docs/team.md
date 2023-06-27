@@ -30,7 +30,7 @@ The TGB team can be reached at <shenyang.huang@mail.mcgill.ca>.
     <td>
     <div style="margin: 0 auto; width: 180px; text-align: center">
       <img src="{{ "/assets/img/portrait/matthias.png" | relative_url }}" class="img-responsive">
-      <strong><a href="https://rusty1s.github.io/#/">Matthias Fey</a></strong> <br/> TU Dortmund
+      <strong><a href="https://rusty1s.github.io/#/">Matthias Fey</a></strong> <br/> kumo.ai
       </div>
     </td>
   </tr> 
@@ -38,7 +38,7 @@ The TGB team can be reached at <shenyang.huang@mail.mcgill.ca>.
     <td>
     <div style="margin: 0 auto; width: 180px; text-align: center">
       <img src="{{ "/assets/img/portrait/weihua.png" | relative_url }}" class="img-responsive">
-      <strong><a href="http://web.stanford.edu/~weihuahu/">Weihua Hu</a></strong> <br/> Stanford University
+      <strong><a href="http://web.stanford.edu/~weihuahu/">Weihua Hu</a></strong> <br/> kumo.ai
       </div>
     </td>
     <td>
