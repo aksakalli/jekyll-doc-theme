@@ -76,6 +76,12 @@ The TGB team can be reached at <shenyang.huang@mail.mcgill.ca>.
   </tr> 
 </table>
 
+
+### Acknowledgements
+
+We thank the [OGB team](https://ogb.stanford.edu/) for their support throughout this project and sharing their website code for the construction of TGB website.
+
+
 <!-- 
 ------
 
