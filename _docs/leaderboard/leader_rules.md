@@ -18,8 +18,8 @@ The general rules are as follows.
 - **Training labels**: Training model parameters (can be used in whatever ways, e.g., for gradient-descent, model input). <br/>
 - **Validation labels**: Meant for standard hyper-parameters tuning (not allowed: gradient-based search, use as model input). <br/>
 - **Test labels**: Final model evaluation.
-
-**The only exception is the [`ogbl-collab`](../linkprop/#ogbl-collab) dataset**, where the task is to predict author collaborations at a particular year given all the past collaborations. For this dataset only, we allow validation labels to be used both for model training and as model input, **after all the model hyper-parameters are fixed using the validation labels.**
+<!-- 
+**The only exception is the [`ogbl-collab`](../linkprop/#ogbl-collab) dataset**, where the task is to predict author collaborations at a particular year given all the past collaborations. For this dataset only, we allow validation labels to be used both for model training and as model input, **after all the model hyper-parameters are fixed using the validation labels.** -->
 
 ##### **Remarks**
 - For link property prediction datasets (`ogbl-*`), "labels" should be interpreted as "edges."

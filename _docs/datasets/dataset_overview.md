@@ -29,11 +29,21 @@ permalink: /docs/dataset_overview/
 </div>
 ----
 
+### **Leaderboard Submission**
+<p class="lead">
+<font size="5">
+To submit to TGB datasets, please fill in the following <a href="https://forms.gle/SEsXvN1QHo9tSFwx9">google form</a> and reach out to <a href="shenyang.huang@mail.mcgill.ca">shenyang.huang@mail.mcgill.ca</a> if you have any questions. 
+</font>
+</p>
+
+
+
 ### **Dataset splits** 
 <p class="lead">
 <font size="5">
 All datasets are split chronologically into the train, validation and test set with 70%, 15% and 15% of the edges respectively </font>
 </p>
+
 
 ### **Contributing datasets**
 <p class="lead">
