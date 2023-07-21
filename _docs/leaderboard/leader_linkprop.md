@@ -3,12 +3,12 @@ title: Leaderboards for Dynamic Link Property Prediction
 permalink: /docs/leader_linkprop/
 ---
 
-##### Check leaderboards for
-###### - [tgbl-wiki](#tgbl-wiki)
-###### - [tgbl-review](#tgbl-review)
-###### - [tgbl-coin](#tgbl-coin)
-###### - [tgbl-comment](#tgbl-comment)
-###### - [tgbl-flight](#tgbl-flight)
+### Check leaderboards for
+#### - [tgbl-wiki](#tgbl-wiki)
+#### - [tgbl-review](#tgbl-review)
+#### - [tgbl-coin](#tgbl-coin)
+#### - [tgbl-comment](#tgbl-comment)
+#### - [tgbl-flight](#tgbl-flight)
 
 The **bold** method name indicates that the implementation is **official** (by the author of the original paper). <br/>
 **Package** denotes the required package version for each dataset to be eligible for the leaderboard.
@@ -21,7 +21,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbl-wiki](../linkprop/#tgbl-wiki)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
@@ -37,7 +37,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbl-review](../linkprop/#tgbl-review)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
@@ -54,7 +54,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbl-coin](../linkprop/#tgbl-coin)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
@@ -67,7 +67,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbl-comment](../linkprop/#tgbl-comment)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
@@ -81,7 +81,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbl-flight](../linkprop/#tgbl-flight)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|

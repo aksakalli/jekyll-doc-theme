@@ -3,10 +3,10 @@ title: Leaderboards for Dynamic Node Property Prediction
 permalink: /docs/leader_nodeprop/
 ---
 
-##### Check leaderboards for
-###### - [tgbn-trade](#tgbn-trade)
-###### - [tgbn-genre](#tgbn-genre)
-###### - [tgbn-reddit](#tgbn-reddit)
+#### Check leaderboards for
+#### - [tgbn-trade](#tgbn-trade)
+#### - [tgbn-genre](#tgbn-genre)
+#### - [tgbn-reddit](#tgbn-reddit)
 
 The **bold** method name indicates that the implementation is **official** (by the author of the original paper). <br/>
 **Package** denotes the required package version for each dataset to be eligible for the leaderboard.
@@ -14,7 +14,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbn-trade](../nodeprop/#tgbn-trade)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test NDCG@10 (%) | Validation NDCG@10 (%) | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
@@ -29,7 +29,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbn-genre](../nodeprop/#tgbn-genre)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test NDCG@10 (%) | Validation NDCG@10 (%) | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
@@ -43,7 +43,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 ### Leaderboard for [tgbn-reddit](../nodeprop/#tgbn-reddit)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
-#### Package: >=0.1.2
+#### Package: >=0.7.0
 
 | Rank  | Method | Test NDCG@10 (e-4) | Validation NDCG@10 (e-4) | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
