@@ -11,6 +11,9 @@ permalink: /docs/leader_nodeprop/
 The **bold** method name indicates that the implementation is **official** (by the author of the original paper). <br/>
 **Package** denotes the required package version for each dataset to be eligible for the leaderboard.
 
+<a name="tgbn-trade"/>
+-------
+
 ### Leaderboard for [tgbn-trade](../nodeprop/#tgbn-trade)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
@@ -24,7 +27,8 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  4  |  **TGN**  | 0.168 ± 0.001  | 0.185 ± 0.002 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2006.10637), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 
 
-
+<a name="tgbn-genre"/>
+-------
 
 ### Leaderboard for [tgbn-genre](../nodeprop/#tgbn-genre)
 ##### The MRR score on the test and validation sets. The higher, the better.
@@ -39,6 +43,8 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  4  |  **Persistent Forecast**  | 0.126  |   0.107 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=qG7IkQ7IBO), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 
 
+<a name="tgbn-reddit"/>
+-------
 
 ### Leaderboard for [tgbn-reddit](../nodeprop/#tgbn-reddit)
 ##### The MRR score on the test and validation sets. The higher, the better.

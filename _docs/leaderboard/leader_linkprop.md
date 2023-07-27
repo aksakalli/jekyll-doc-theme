@@ -14,8 +14,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 **Package** denotes the required package version for each dataset to be eligible for the leaderboard.
 
 
-<a name="tgbl-wiki"/>
-
+<a name="tgbl-wiki-v2"/>
 -------
 
 ### Leaderboard for [tgbl-wiki-v2](../linkprop/#tgbl-wiki-v2)
@@ -34,6 +33,9 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  7  |  **DyRep**  | 0.050 ± 0.017   | 0.072 ± 0.009 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
 
 
+<a name="tgbl-review-v2"/>
+-------
+
 ### Leaderboard for [tgbl-review-v2](../linkprop/#tgbl-review-v2)
 ##### **Please update your package to `0.7.5`**. In version 2 of `tgbl-review`, we have included 100 negative destinations for each positive edge thus increasing the task difficulty. For submissions, please submit to this version.  Previous version of the dataset leaderboard is [tgbl-review-v1](../leader_linkprop_old/#tgbl-review-v1). The MRR score on the test and validation sets. The higher, the better. 
 
@@ -50,6 +52,9 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  7  |  **EdgeBank(unlimited)**  | 0.0229   | 0.0229 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
 
 
+<a name="tgbl-coin"/>
+-------
+
 ### Leaderboard for [tgbl-coin](../linkprop/#tgbl-coin)
 ##### The MRR score on the test and validation sets. The higher, the better.
 
@@ -62,6 +67,9 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  3  |  **DyRep**  | 0.434 ± 0.038   | 0.507 ± 0.029 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 |  4  |  **EdgeBank(unlimited)**  | 0.359   |  0.315 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 
+
+<a name="tgbl-comment"/>
+-------
 
 ### Leaderboard for [tgbl-comment](../linkprop/#tgbl-comment)
 ##### The MRR score on the test and validation sets. The higher, the better.
@@ -76,6 +84,9 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  4  |  **EdgeBank(unlimited)**  | 0.129  |  0.109 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 
 
+
+<a name="tgbl-flight"/>
+-------
 
 ### Leaderboard for [tgbl-flight](../linkprop/#tgbl-flight)
 ##### The MRR score on the test and validation sets. The higher, the better.
