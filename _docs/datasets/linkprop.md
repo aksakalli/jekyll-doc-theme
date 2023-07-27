@@ -18,8 +18,8 @@ g { color: rgb(27, 158, 119) }
 
 Scale | Name      | Package | #Nodes | #Edges\* |  #Steps  | Surprise     | Metric       |
 |:---------:|:--------|:---------:|----------:|----------:|:----------------:|:------------------:|:----------------:|
-<r>Small</r> | [tgbl-wiki](#tgbl-wiki)      | 0.1.2   | 9,227 |    157,474  |   152,757  | 0.108   |     MRR              |
-<r>Small</r> | [tgbl-review](#tgbl-review)  | 0.1.2       | 352,637 |    4,873,540 |    6,865  | 0.987   |     MRR              |
+<r>Small</r> | [tgbl-wiki-v2](#tgbl-wiki-v2)      | 0.1.2   | 9,227 |    157,474  |   152,757  | 0.108   |     MRR              |
+<r>Small</r> | [tgbl-review-v2](#tgbl-review-v2)  | 0.1.2       | 352,637 |    4,873,540 |    6,865  | 0.987   |     MRR              |
 <b>medium</b> | [tgbl-coin](#tgbl-coin)       | 0.1.2  | 638,486 |  22,809,486 |   1,295,720  | 0.120   |     MRR              |
 <g>large</g> | [tgbl-comment](#tgbl-comment) | 0.1.2       | 994,790 |   44,314,507 |   30,998,030  |  0.823   |     MRR      |
 <g>large</g> | [tgbl-flight](#tgbl-flight)  | 0.1.2       | 18143 |   67,169,570 |   1,385  | 0.024   |    MRR     |
@@ -33,7 +33,7 @@ We also provide the evaluator.
 
 ----------
 
-### Dataset `tgbl-wiki` ([Leaderboard](../leader_linkprop/#tgbl-wiki)):
+### Dataset `tgbl-wiki` ([Leaderboard](../leader_linkprop/#tgbl-wiki-v2)):
 
 **Temporal Graph:** The `tgbl-wiki` dataset stores the co-editing network on Wikipedia pages over one month. The network is a bipartite interaction network where editors and wiki pages are nodes, while one edge represents a given user edits a page at a specific timestamp. Each edge has text features from the page edits. 
 
@@ -48,7 +48,7 @@ We also provide the evaluator.
 
 ----------
 
-### Dataset `tgbl-review` ([Leaderboard](../leader_linkprop/#tgbl-review)):
+### Dataset `tgbl-review` ([Leaderboard](../leader_linkprop/#tgbl-review-v2)):
 
 **Temporal Graph:** The `tgbl-review` dataset is an Amazon product review network from 1997 to 2018 where users rate different products in the electronics category from a scale from one to five. Therefore, the network is a bipartite weighted network where both users and products are nodes and each edge represents a particular review from a user to a product at a given time. Only users with a minimum of 10 reviews within the aforementioned time interval are kept in the network. 
 
