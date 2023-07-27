@@ -3,6 +3,40 @@ title: Get Started
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
+![TGB logo](../assets/img/TGB_logo.png)
+
+<h4>
+	<a href="https://arxiv.org/abs/2307.01026"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+	<a href="https://pypi.org/project/py-tgb/"><img src="https://img.shields.io/pypi/v/py-tgb.svg?color=brightgreen"></a>
+	<a href="https://tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/website-blue"></a>
+	<a href="https://docs.tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/docs-orange"></a>
+</h4>
+Temporal Graph Benchmark for Machine Learning on Temporal Graphs 
+
+
+Overview of the Temporal Graph Benchmark (TGB) pipeline:
+- TGB includes large-scale and realistic datasets from five different domains with both dynamic link prediction and node property prediction tasks
+- TGB automatically downloads datasets and processes them into `numpy`, `PyTorch` and `PyG compatible TemporalData` formats. 
+- Novel TG models can be easily evaluated on TGB datasets via reproducible and realistic evaluation protocols. 
+- TGB provides public and online leaderboards to track recent developments in temporal graph learning domain
+
+### Links and Datasets
+
+The project website can be found [here](https://tgb.complexdatalab.com/).
+
+The API documentations can be found [here](https://shenyanghuang.github.io/TGB/).
+
+all dataset download links can be found at [info.py](https://github.com/shenyangHuang/TGB/blob/main/tgb/utils/info.py)
+
+TGB dataloader will also automatically download the dataset as well as the negative samples for the link property prediction datasets.
+
+### Running Example Methods
+
+- For the dynamic link property prediction task, see the [`examples/linkproppred`](https://github.com/shenyangHuang/TGB/tree/main/examples/linkproppred) folder for example scripts to run TGN, DyRep and EdgeBank on TGB datasets.
+- For the dynamic node property prediction task, see the [`examples/nodeproppred`](https://github.com/shenyangHuang/TGB/tree/main/examples/nodeproppred) folder for example scripts to run TGN, DyRep and EdgeBank on TGB datasets.
+- For all other baselines, please see the [TGB_Baselines](https://github.com/fpour/TGB_Baselines) repo.
+
+
 ### pypi Installation
 
 ```
