@@ -6,7 +6,10 @@ redirect_from: /docs/index.html
 
 ### Temporal Graph Benchmark for Machine Learning on Temporal Graphs 
 
+
+
 ![TGB_logo](/TGB_logo.png)
+
 
 <p>
   <a href="https://arxiv.org/abs/2307.01026"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
