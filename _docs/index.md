@@ -3,7 +3,10 @@ title: Get Started
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
-![TGB logo](../assets/img/TGB_logo.png)
+
+### Temporal Graph Benchmark for Machine Learning on Temporal Graphs 
+
+![TGB logo](TGB_logo.png)
 
 <h4>
 	<a href="https://arxiv.org/abs/2307.01026"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
@@ -11,7 +14,6 @@ redirect_from: /docs/index.html
 	<a href="https://tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/website-blue"></a>
 	<a href="https://docs.tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/docs-orange"></a>
 </h4>
-Temporal Graph Benchmark for Machine Learning on Temporal Graphs 
 
 
 Overview of the Temporal Graph Benchmark (TGB) pipeline:
