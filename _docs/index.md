@@ -8,7 +8,10 @@ redirect_from: /docs/index.html
 
 
 
-![TGB_logo](/TGB_logo.png)
+![TGB_logo](/assets/img/TGB_logo.png)
+
+
+
 
 
 <p>
