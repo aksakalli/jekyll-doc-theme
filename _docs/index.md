@@ -12,7 +12,7 @@ redirect_from: /docs/index.html
 </p>
 
 
-** Overview of the Temporal Graph Benchmark (TGB) pipeline **:
+Overview of the Temporal Graph Benchmark (TGB) pipeline:
 - TGB includes large-scale and realistic datasets from five different domains with both dynamic link prediction and node property prediction tasks
 - TGB automatically downloads datasets and processes them into `numpy`, `PyTorch` and `PyG compatible TemporalData` formats. 
 - Novel TG models can be easily evaluated on TGB datasets via reproducible and realistic evaluation protocols. 
