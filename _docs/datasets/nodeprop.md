@@ -86,11 +86,11 @@ We also provide the evaluator.
 To load a dataset replace the name variable with a dataset name. See more from the [TGB tutorial](https://github.com/shenyangHuang/TGB/blob/main/docs/tutorials/Edge_data_numpy.ipynb)
 
 ```python
-from tgb.nodeproppred.dataset import NodePropertyDataset
+from tgb.nodeproppred.dataset import NodePropPredDataset
 
 name = "tgbn-trade"
 
-dataset = NodePropertyDataset(name=name, root="datasets", preprocess=True)
+dataset = NodePropPredDataset(name=name, root="datasets", preprocess=True)
 
 data = dataset.full_data
 
@@ -104,11 +104,11 @@ type(data['sources']) #all source nodes of edges
 To load a dataset replace the name variable with a dataset name. 
 
 ```python
-from tgb.nodeproppred.dataset_pyg import PyGNodePropertyDataset
+from tgb.nodeproppred.dataset_pyg import PyGNodePropPredDataset
 
 name = "tgbn-trade"
 
-dataset = PyGNodePropertyDataset(name=name, root="datasets")
+dataset = PyGNodePropPredDataset(name=name, root="datasets")
 
 dataset.src #all source nodes of edges
 ```
@@ -118,11 +118,11 @@ dataset.src #all source nodes of edges
 #### Pytorch Geometric TemporalData
 
 ```python
-from tgb.nodeproppred.dataset_pyg import PyGNodePropertyDataset
+from tgb.nodeproppred.dataset_pyg import PyGNodePropPredDataset
 
 name = "tgbn-trade"
 
-dataset = PyGNodePropertyDataset(name=name, root="datasets")
+dataset = PyGNodePropPredDataset(name=name, root="datasets")
 
 data = dataset.get_TemporalData()
 
