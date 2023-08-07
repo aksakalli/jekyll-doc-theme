@@ -19,7 +19,7 @@ permalink: /docs/dataset_overview/
                 <b>Rich domains:</b> TGB datasets come from interaction networks, rating networks, trasanction networks, traffic networks, social networks and trade networks. <br/>
             </p>
             <p class="lead">
-                <b>Diverse in scale:</b> TGB datasets includes small ($<$ 5 million edges), medium ($<$ 25 million edges) and large ($>$ 25 million edges)scale datasets <br/>
+                <b>Diverse in scale:</b> TGB datasets includes small (< 5 million edges), medium (< 25 million edges) and large (> 25 million edges)scale datasets <br/>
             </p>
         </div>
         <div class="col-md-6 text-center">
