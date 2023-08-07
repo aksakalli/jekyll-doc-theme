@@ -29,11 +29,11 @@ Scale | Name      | Package | #Nodes | #Edges\* |  #Steps  | Surprise     | Metr
 Datasets are available in <code>Numpy</code> arrays, <code>Pytorch</code> tensors and <code>PyG TemporalData</code> objects.
 We also provide the evaluator.
 
-<a name="tgbl-wiki"/>
+<a name="tgbl-wiki-v2"/>
 
 ----------
 
-### Dataset `tgbl-wiki` ([Leaderboard](../leader_linkprop/#tgbl-wiki-v2)):
+### Dataset `tgbl-wiki-v2` ([Leaderboard](../leader_linkprop/#tgbl-wiki-v2)):
 
 **Temporal Graph:** The `tgbl-wiki` dataset stores the co-editing network on Wikipedia pages over one month. The network is a bipartite interaction network where editors and wiki pages are nodes, while one edge represents a given user edits a page at a specific timestamp. Each edge has text features from the page edits. 
 
@@ -44,11 +44,11 @@ We also provide the evaluator.
 [1] S. Kumar, X. Zhang, and J. Leskovec. Predicting dynamic embedding trajectory in temporal interaction networks. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pages 1269–1278, 2019. <br/>
 ##### License: MIT license
 
-<a name="tgbl-review"/>
+<a name="tgbl-review-v2"/>
 
 ----------
 
-### Dataset `tgbl-review` ([Leaderboard](../leader_linkprop/#tgbl-review-v2)):
+### Dataset `tgbl-review-v2` ([Leaderboard](../leader_linkprop/#tgbl-review-v2)):
 
 **Temporal Graph:** The `tgbl-review` dataset is an Amazon product review network from 1997 to 2018 where users rate different products in the electronics category from a scale from one to five. Therefore, the network is a bipartite weighted network where both users and products are nodes and each edge represents a particular review from a user to a product at a given time. Only users with a minimum of 10 reviews within the aforementioned time interval are kept in the network. 
 
