@@ -22,7 +22,7 @@ Scale | Name      | Package | #Nodes | #Edges\* |  #Steps  | Surprise     | Metr
 <r>Small</r> | [tgbl-review-v2](#tgbl-review-v2)  | 0.1.2       | 352,637 |    4,873,540 |    6,865  | 0.987   |     MRR              |
 <b>medium</b> | [tgbl-coin](#tgbl-coin)       | 0.1.2  | 638,486 |  22,809,486 |   1,295,720  | 0.120   |     MRR              |
 <g>large</g> | [tgbl-comment](#tgbl-comment) | 0.1.2       | 994,790 |   44,314,507 |   30,998,030  |  0.823   |     MRR      |
-<g>large</g> | [tgbl-flight](#tgbl-flight)  | 0.1.2       | 18143 |   67,169,570 |   1,385  | 0.024   |    MRR     |
+<g>large</g> | [tgbl-flight](#tgbl-flight)  | 0.1.2       | 18,143 |   67,169,570 |   1,385  | 0.024   |    MRR     |
 
 
 #### - Module
