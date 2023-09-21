@@ -85,6 +85,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
+|  1  |  **DyGFormer**  | 0.670 ± 0.001   | 0.613 ± 0.003 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://arxiv.org/abs/2307.12510), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | September 21st, 2023 |
 |  1  |  **TGN**  | 0.379 ± 0.021  | 0.356 ± 0.019 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2006.10637), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 |  2  |  **DyRep**  | 0.289 ± 0.033   | 0.291 ± 0.028 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 |  3  |  **EdgeBank(tw)**  | 0.149   |  0.124 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
