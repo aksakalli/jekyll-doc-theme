@@ -18,9 +18,10 @@ g { color: rgb(27, 158, 119) }
 
 Scale | Name      | Package          | #Nodes  | #Edges\* | #Steps | Surprise  | Metric    |
 |:---------:|:--------|:-----:|----------------:|----------------------:|---------------------:|:-------------------------:|
-<r>Small</r> | [tgbn-trade](#tgbn-trade) | 0.1.2  | 255  | 507,497  | 32       | 0.023      | NDCG@10 |
-<b>Medium</b> | [tgbn-genre](#tgbn-genre) | 0.1.2  | 992 | 17,858,395| 133,758       | 0.005  | NDCG@10 |
-<g>Large</g> | [tgbn-reddit](#tgbn-reddit) | 0.1.2  | 11,068  | 27,174,118 |  21,889,537    | 0.013      | NDCG@10 |
+<r>Small</r> | [tgbn-trade](#tgbn-trade) | 0.8.0  | 255  | 468,245  | 32       | 0.023      | NDCG@10 |
+<b>Medium</b> | [tgbn-genre](#tgbn-genre) | 0.8.0  | 1,505 | 17,858,395| 133,758       | 0.005  | NDCG@10 |
+<g>Large</g> | [tgbn-reddit](#tgbn-reddit) | 0.8.0  | 11,766  | 27,174,118 |  21,889,537    | 0.013      | NDCG@10 |
+<g>Large</g> | [tgbn-token](#tgbn-token) | 0.9.0  | 61,756  | 72,936,998 |  2,036,524    | 0.014      | NDCG@10 |
 
 #### - Module
 Datasets are available in <code>Numpy</code> arrays, <code>Pytorch</code> tensors and <code>PyG TemporalData</code> objects.
@@ -73,6 +74,24 @@ We also provide the evaluator.
 #### References
 [5] A. Nadiri and F. W. Takes. A large-scale temporal analysis of user lifespan durability on the reddit social media platform. In Companion Proceedings of the Web Conference 2022, pages 677–685, 2022. <br/>
 ##### License: CC BY-NC license (Attribution-NonCommercial)
+
+
+
+<a name="tgbn-token"/>
+
+----------
+
+### Dataset `tgbn-token` ([Leaderboard](../leader_nodeprop/#tgbn-token)):
+
+**Temporal Graph:** The `tgbn-reddit` dataset is a user and cryptocurrency token transaction network. Both users and tokens are nodes and each edge indicates the transaction from a user to a token. The edge weights indicate the amount of token transferred and considering the disparity between weights, we normalized the edge weights using logarithm. 
+
+**Prediction task:** The task considered for this dataset is to predict how frequently a user will interact with various types of tokens over the next week.
+
+
+#### References
+[6] K. Shamsi, Y. R. Gel, M. Kantarcioglu, and C. G. Akcora. Chartalist: Labeled graph datasets for utxo and account-based blockchains. In Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2022, NeurIPS 2022, November 29-December 1, 2022, New Orleans, LA, USA, pages 1–14, 2022. <br/>
+##### License: CC BY-NC license (Attribution-NonCommercial)
+
 
 
 

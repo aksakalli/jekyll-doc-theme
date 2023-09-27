@@ -2,15 +2,18 @@
 title: Version Update for TGB
 permalink: /docs/update/
 ---
-##### **Please update your package to [0.8.0](https://pypi.org/project/py-tgb/)** (August 6th, 2023).
+##### **Please update your package to [0.9.0](https://pypi.org/project/py-tgb/)** (September 27th, 2023).
+- add a novel large scale dataset `tgbn-token` with 72 million edges.
+- leaderboard for `tgbn-token` is added to [`tgbn` leaderboards](https://tgb.complexdatalab.com/docs/leader_nodeprop/).
+- fixed an error where a small percentage of edges in `tgbl-flight` and `tgbl-coin` is not sorted chronologically. Updated `tgbl-flight` and `tgbl-coin` to version 2. 
+- `tgbl-flight` and `tgbl-coin` version 2 leaderboards are updated accordingly. 
+
+
+##### package version [0.8.0](https://pypi.org/project/py-tgb/) (August 6th, 2023).
 - addressed issues pointed out by the authors in a [recent paper](https://arxiv.org/abs/2307.12510), thanks for the suggestions! Happy to incorporate more community feedbacks in the future. 
 - addressed metric computation error in the `nodeproppred` task, specially computing the average over the number of label batches now, please refer to the [`examples/nodeproppred/`](https://github.com/shenyangHuang/TGB/tree/main/examples/nodeproppred) folder to see corrected metric computations.
 - no longer applys log softmax at the [`NodePredictor`](https://github.com/shenyangHuang/TGB/blob/main/modules/decoder.py), no significant numerical difference between applying or not
 - update to version 2 of [`tgbn` leaderboards](https://tgb.complexdatalab.com/docs/leader_nodeprop/) with the updated metric computation.
-
-
-
-
 
 
 ##### package version [0.7.5](https://pypi.org/project/py-tgb/) (July 27th, 2023).
