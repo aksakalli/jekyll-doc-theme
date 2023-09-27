@@ -5,11 +5,11 @@ permalink: /docs/leader_rules/
 
 ----
 
-### Preamble
+<!-- ### Introduction -->
 Here we present the rules of how we expect the community to use train/validation/test labels for the leaderboard submissions. 
 The rules are designed to enforce the standardized experimental protocol for easy and direct model comparison. We acknowledge that these rules are by no means perfect but are a starting point for a standardized comparison for temporal graph learning. There are settings / use cases in temporal graph learning not currently covered in this work. We Hope to continue to expand TGB and improve its evaluation setting and procedures. Feedbacks from the community is highly welcome. 
 
-In this work, we consider the <b> <u> streaming setting </u> </b> where information from the test set is only employed for updating the memory module in temporal graph learning methods and no back-propagation is possible based on the test set information. (see Appendix C in the paper for more details.)
+In the TGB paper, we mainly focus on the <b> <u> streaming setting </u> </b>. Please note that the test set information is only used for updating the memory module (if any) of a temporal graph learning method. Thus, no back-propagation is allowed based on the test set information. For further details, please check Appendix C in the paper.
 
 
 ---

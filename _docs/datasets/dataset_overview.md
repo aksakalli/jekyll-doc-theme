@@ -32,10 +32,10 @@ permalink: /docs/dataset_overview/
 ### **Leaderboard Submission**
 <p class="lead">
 <font size="5">
-To submit to TGB datasets, please fill in the following <a href="https://forms.gle/SEsXvN1QHo9tSFwx9">google form</a> and reach out to <a href="shenyang.huang@mail.mcgill.ca">shenyang.huang@mail.mcgill.ca</a> if you have any questions. All results should be reported across 5 runs for both validation and test performance. 
+To submit to TGB datasets, please fill in the following <a href="https://forms.gle/SEsXvN1QHo9tSFwx9">google form</a> and reach out to <a href="shenyang.huang@mail.mcgill.ca">shenyang.huang@mail.mcgill.ca</a> if you have any questions. All results should be reported across 5 runs for both validation and test performance. Rules for the Leaderboard is found <a href="../leader_rules">here</a>.
 </font>
 </p>
-<!-- <a href="../leader_rules">rules</a>. -->
+
 
 
 ### **Dataset splits** 
