@@ -10,6 +10,7 @@ baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
 url: https://joseph101gh.github.io # the base hostname & protocol for your site
 git_address: https://github.com/joseph101gh/jekyll-doc-theme
 git_edit_address: https://github.com/joseph101gh/jekyll-doc-theme/blob/gh-pages
+remote_theme: benbalter/retlab
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
@@ -20,6 +21,7 @@ markdown: kramdown
 highlighter: rouge
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
