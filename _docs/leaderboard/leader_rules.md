@@ -19,8 +19,7 @@ The general rules are as follows.
 - **Training Split**: All data including edges, nodes, labels can be used in whatever ways to train the model parameters i.e. for graident-descent, model tuning, model input etc. <br/>
 - **Validation Split**: Meant for standard hyper-parameters tuning (not allowed: gradient-based search, graident-descent). Can be used for memory module. <br/>
 - **Test Split**: Final model evaluation, no hyper-parameters tuning allowed. Can be used for memory module 
-<!-- 
-**The only exception is the [`ogbl-collab`](../linkprop/#ogbl-collab) dataset**, where the task is to predict author collaborations at a particular year given all the past collaborations. For this dataset only, we allow validation labels to be used both for model training and as model input, **after all the model hyper-parameters are fixed using the validation labels.** -->
+
 
 <!-- ##### **Remarks**
 - For link property prediction datasets (`ogbl-*`), "labels" should be interpreted as "edges."
