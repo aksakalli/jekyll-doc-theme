@@ -2,7 +2,14 @@
 title: Version Update for TGB
 permalink: /docs/update/
 ---
-##### **Please update your package to [0.9.0](https://pypi.org/project/py-tgb/)** (September 27th, 2023).
+##### **Please update your package to [0.9.2](https://pypi.org/project/py-tgb/)** (December 5th, 2023).
+- fix the time conversion error in `tgbl-flight`, now the edgelist directly contain the converted unix timestamps. 
+- if you have older download of this datasets, please remove `TGB/tgb/datasets/tgbl_flight` folder and do a clean redownload. 
+- no negative samples or dataset edges are changed, only now that the provided edges now have unix timestamps instead of date.
+
+
+
+##### package version [0.9.0](https://pypi.org/project/py-tgb/) (September 27th, 2023).
 - add a novel large scale dataset `tgbn-token` with 72 million edges.
 - leaderboard for `tgbn-token` is added to [`tgbn` leaderboards](https://tgb.complexdatalab.com/docs/leader_nodeprop/).
 - fixed an error where a small percentage of edges in `tgbl-flight` and `tgbl-coin` is not sorted chronologically. Updated `tgbl-flight` and `tgbl-coin` to version 2. 

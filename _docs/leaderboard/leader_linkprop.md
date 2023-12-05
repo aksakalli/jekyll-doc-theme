@@ -98,9 +98,9 @@ The **bold** method name indicates that the implementation is **official** (by t
 -------
 
 ### Leaderboard for [tgbl-flight-v2](../linkprop/#tgbl-flight-v2)
-##### **Please update your package >= `0.9.0`**. In version 2 of `tgbl-flight`, we fixed an error where a small portion of edges are not sorted chronologically. For submissions, please submit to this version.  Previous version of the dataset leaderboard is [tgbl-flight-v1](../leader_linkprop_old/#tgbl-flight-v1). The MRR score on the test and validation sets. The higher, the better. 
+##### **Please update your package >= `0.9.2`**. In version 2 of `tgbl-flight`, we fixed an error where a small portion of edges are not sorted chronologically. For submissions, please submit to this version.  Previous version of the dataset leaderboard is [tgbl-flight-v1](../leader_linkprop_old/#tgbl-flight-v1). The MRR score on the test and validation sets. The higher, the better. 
 
-#### Package: >=0.9.0
+#### Package: >=0.9.2
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
