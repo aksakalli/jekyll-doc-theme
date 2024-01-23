@@ -24,7 +24,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
-|  1  |  **DyGFormer**  | 0.798 ± 0.004   | 0.816 ± 0.005 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://arxiv.org/abs/2307.12510), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | August 22nd, 2023 |
+|  1  |  **DyGFormer**  | 0.798 ± 0.004   | 0.816 ± 0.005 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://openreview.net/forum?id=xHNzWHbklj), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | August 22nd, 2023 |
 |  2  |  **NAT**  | 0.749 ± 0.010   | 0.773 ± 0.011 | [TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/pdf?id=EPUtNe7a9ta), [Code](https://github.com/shenyangHuang/TGB) | August 22nd, 2023 |
 |  3  |  **CAWN**  | 0.711 ± 0.006   | 0.743 ± 0.004 | [TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](http://snap.stanford.edu/caw/), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
 |  4  |  **EdgeBank(tw)**  | 0.571   | 0.600 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
@@ -50,7 +50,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 |  2  |  **TGAT**  | 0.355 ± 0.012   | 0.324 ± 0.006 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/pdf/2002.07962.pdf), [Code](https://github.com/shenyangHuang/TGB) | August 22th, 2023 |
 |  3  |  **TGN**  | 0.349 ± 0.020   | 0.313 ± 0.012 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2006.10637), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
 |  4  |  **NAT**  | 0.341 ± 0.020   | 0.302 ± 0.011 | [TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/pdf?id=EPUtNe7a9ta), [Code](https://github.com/shenyangHuang/TGB) | August 22nd, 2023 |
-|  5  |  **DyGFormer**  | 0.224 ± 0.015   | 0.219 ± 0.017 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://arxiv.org/abs/2307.12510), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | September 21st, 2023 |
+|  5  |  **DyGFormer**  | 0.224 ± 0.015   | 0.219 ± 0.017 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://openreview.net/forum?id=xHNzWHbklj), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | September 21st, 2023 |
 |  6  |  **DyRep**  | 0.220 ± 0.030   | 0.216 ± 0.031 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
 |  7  |  **CAWN**  | 0.193 ± 0.001   | 0.200 ± 0.001 | [TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](http://snap.stanford.edu/caw/), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
 |  8  |  **TCL**  | 0.193 ± 0.009   | 0.199 ± 0.007 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2105.07944), [Code](https://github.com/shenyangHuang/TGB) | July 27th, 2023 |
@@ -69,7 +69,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
-|  1  |  **DyGFormer**  | 0.752 ± 0.004   | 0.730 ± 0.002 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://arxiv.org/abs/2307.12510), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | November 2nd, 2023 |
+|  1  |  **DyGFormer**  | 0.752 ± 0.004   | 0.730 ± 0.002 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://openreview.net/forum?id=xHNzWHbklj), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | November 2nd, 2023 |
 |  2  |  **TGN**  | 0.586 ± 0.037   | 0.607 ± 0.014 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2006.10637), [Code](https://github.com/shenyangHuang/TGB) | September 27th, 2023 |
 |  3  |  **EdgeBank(tw)**  | 0.580   |   0.492 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | September 27th, 2023 |
 |  4  |  **DyRep**  | 0.452 ± 0.046   | 0.512 ± 0.014 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | September 27th, 2023 |
@@ -86,7 +86,7 @@ The **bold** method name indicates that the implementation is **official** (by t
 
 | Rank  | Method | Test MRR | Validation MRR | Contact | References | Date 
 |:----:|:-----:|:------:|:-----:|:-----:|:-----:|-----:|
-|  1  |  **DyGFormer**  | 0.670 ± 0.001   | 0.613 ± 0.003 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://arxiv.org/abs/2307.12510), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | September 21st, 2023 |
+|  1  |  **DyGFormer**  | 0.670 ± 0.001   | 0.613 ± 0.003 | [Le Yu (Beihang University)](mailto:yule@buaa.edu.cn) | [Paper](https://openreview.net/forum?id=xHNzWHbklj), [Code](https://github.com/yule-BUAA/DyGLib_TGB) | September 21st, 2023 |
 |  1  |  **TGN**  | 0.379 ± 0.021  | 0.356 ± 0.019 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://arxiv.org/abs/2006.10637), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 |  2  |  **DyRep**  | 0.289 ± 0.033   | 0.291 ± 0.028 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=HyePrhR5KX), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
 |  3  |  **EdgeBank(tw)**  | 0.149   |  0.124 |[TGB team](mailto:shenyang.huang@mail.mcgill.ca) | [Paper](https://openreview.net/forum?id=1GVpwr2Tfdg), [Code](https://github.com/shenyangHuang/TGB) | June 7th, 2023 |
