@@ -25,3 +25,9 @@ The general rules are as follows.
 - For link property prediction datasets (`ogbl-*`), "labels" should be interpreted as "edges."
 - Some ML models might want to utilize validation labels more directly. For the sake of leaderboard submissions, we enforce the above rules, i.e., do not allow the validation labels to be used beyond the standard hyper-parameter tuning. See our rationale and discussion [here](https://github.com/snap-stanford/ogb/issues/73#issuecomment-707258886). -->
 
+### Leaderboard Submission
+<p class="lead">
+<font size="5">
+To submit to TGB datasets, please fill in the following <a href="https://forms.gle/SEsXvN1QHo9tSFwx9">google form</a> and reach out to <a href="shenyang.huang@mail.mcgill.ca">shenyang.huang@mail.mcgill.ca</a> if you have any questions. All results should be reported across 5 runs for both validation and test performance. Rules for the Leaderboard is found <a href="../leader_rules">here</a>.
+</font>
+</p>

@@ -83,7 +83,7 @@ We also provide the evaluator.
 
 ### Dataset `tgbn-token` ([Leaderboard](../leader_nodeprop/#tgbn-token)):
 
-**Temporal Graph:** The `tgbn-reddit` dataset is a user and cryptocurrency token transaction network. Both users and tokens are nodes and each edge indicates the transaction from a user to a token. The edge weights indicate the amount of token transferred and considering the disparity between weights, we normalized the edge weights using logarithm. 
+**Temporal Graph:** The `tgbn-token` dataset is a user and cryptocurrency token transaction network. Both users and tokens are nodes and each edge indicates the transaction from a user to a token. The edge weights indicate the amount of token transferred and considering the disparity between weights, we normalized the edge weights using logarithm. 
 
 **Prediction task:** The task considered for this dataset is to predict how frequently a user will interact with various types of tokens over the next week.
 
